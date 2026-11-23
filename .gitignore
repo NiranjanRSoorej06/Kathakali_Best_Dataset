@@ -58,3 +58,9 @@ Videos_Cropped/
 # Generated validation data
 max_val_y
 Videos_Cropped
+
+# Include ST-GCN processed features and experiment results
+!Experiment_2/stgcn/processed/
+!Experiment_2/stgcn/processed/**
+!Experiment_2/stgcn/runs/
+!Experiment_2/stgcn/runs/**
