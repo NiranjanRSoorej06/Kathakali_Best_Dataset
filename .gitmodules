@@ -1,0 +1,3 @@
+[submodule "Experiment_2/dwpose/implementation/DWPose"]
+	path = Experiment_2/dwpose/implementation/DWPose
+	url = https://github.com/IDEA-Research/DWPose.git

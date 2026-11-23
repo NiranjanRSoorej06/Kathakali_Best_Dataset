@@ -1,0 +1,11 @@
+class,precision,recall,f1_score,correct,total
+Anugraham,1.0,1.0,1.0,2,2
+Ariyikkuka,1.0,1.0,1.0,2,2
+Kallan,1.0,1.0,1.0,2,2
+Kannu,1.0,1.0,1.0,2,2
+Pazham,1.0,1.0,1.0,2,2
+Pushpam,1.0,1.0,1.0,2,2
+Thaamara,1.0,1.0,1.0,2,2
+Thalamudi,1.0,1.0,1.0,2,2
+Thaliru,1.0,1.0,1.0,2,2
+Urakkam,1.0,1.0,1.0,2,2

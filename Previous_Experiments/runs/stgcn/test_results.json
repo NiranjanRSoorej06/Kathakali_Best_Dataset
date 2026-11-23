@@ -1,0 +1,24 @@
+{
+    "model": "ST-GCN",
+    "best_epoch": 30,
+    "best_validation_loss": 0.005828867014497518,
+    "test_loss": 0.014404549077153207,
+    "test_accuracy": 1.0,
+    "test_accuracy_percent": 100.0,
+    "classes": [
+        "Anugraham",
+        "Ariyikkuka",
+        "Kallan",
+        "Kannu",
+        "Pazham",
+        "Pushpam",
+        "Thaamara",
+        "Thalamudi",
+        "Thaliru",
+        "Urakkam"
+    ],
+    "train_samples": 70,
+    "validation_samples": 20,
+    "test_samples": 20,
+    "parameters": 995536
+}
