@@ -1,0 +1,60 @@
+# Raw videos and datasets
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Extracted and processed data
+*.npz
+*.npy
+*.pkl
+*.pickle
+data/
+datasets/
+processed/
+extracted_430/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.h5
+*.keras
+*.ckpt
+*.onnx
+
+# Training outputs
+runs/
+outputs/
+checkpoints/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Previous generated skeletal images
+Previous_Experiments/Uniform_Skeletal_Images/
+
+# Cropped videos
+Videos_Cropped/
+
+# Backup files
+*.bak
+*.backup
+
+# Generated validation data
+max_val_y
+Videos_Cropped
