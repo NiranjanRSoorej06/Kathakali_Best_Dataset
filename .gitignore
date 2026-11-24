@@ -92,3 +92,11 @@ Previous_Experiments/Uniform_Skeletal_Images/
 
 # Cropped videos
 Videos_Cropped/
+
+# Include the complete Kathakali pose-recognition project
+!Pose_Based_Recognition/
+!Pose_Based_Recognition/**/
+!Pose_Based_Recognition/**/*
+Pose_Based_Recognition/**/__pycache__/
+Pose_Based_Recognition/**/*.pyc
+Pose_Based_Recognition/**/.venv/

@@ -1,0 +1,8 @@
+{
+  "experiment": 6,
+  "checkpoint_epoch": 56,
+  "test_samples": 65,
+  "test_loss": 0.11642645224928856,
+  "test_accuracy": 0.9538461538461539,
+  "test_macro_f1": 0.921951219512195
+}

@@ -1,0 +1,9 @@
+{
+  "experiment": 5,
+  "best_epoch": 57,
+  "best_validation_loss": 0.0739675342105329,
+  "seed": 42,
+  "epochs_configured": 100,
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/runs/exp5/exp5_xy_confidence_3partition/best_model.pt",
+  "training_log": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/logs/exp5/exp5_xy_confidence_3partition/training_log.csv"
+}

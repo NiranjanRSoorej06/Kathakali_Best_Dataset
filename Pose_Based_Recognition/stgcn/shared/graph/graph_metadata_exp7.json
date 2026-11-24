@@ -1,0 +1,16 @@
+{
+  "nodes": 50,
+  "center_node": 1,
+  "center_name": "neck",
+  "partitions": [
+    "self",
+    "centripetal",
+    "centrifugal"
+  ],
+  "shape": [
+    3,
+    50,
+    50
+  ],
+  "normalization": "column degree normalization"
+}

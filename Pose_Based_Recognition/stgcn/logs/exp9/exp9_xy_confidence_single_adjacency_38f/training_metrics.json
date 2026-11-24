@@ -1,0 +1,16 @@
+{
+  "experiment": "exp9_xy_confidence_single_adjacency_38f",
+  "best_epoch": 97,
+  "best_validation_loss": 1.3464759389559429,
+  "best_validation_accuracy": 0.6097560975609756,
+  "best_validation_macro_f1": 0.5589430894308942,
+  "seed": 42,
+  "epochs_configured": 100,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "device": "cuda",
+  "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/runs/exp9_xy_confidence_single_adjacency_38f/best_model.pt",
+  "training_log": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/logs/exp9_xy_confidence_single_adjacency_38f/training_log.csv"
+}

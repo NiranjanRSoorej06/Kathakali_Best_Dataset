@@ -1,0 +1,9 @@
+{
+  "experiment": 4,
+  "best_epoch": 82,
+  "best_validation_loss": 0.140886090695858,
+  "seed": 42,
+  "epochs_configured": 100,
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/runs/exp4/exp4_xy_single_adjacency/best_model.pt",
+  "training_log": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/logs/exp4/exp4_xy_single_adjacency/training_log.csv"
+}

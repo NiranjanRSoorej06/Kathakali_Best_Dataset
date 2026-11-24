@@ -1,0 +1,10 @@
+{
+    "experiment": "Exp3",
+    "checkpoint_epoch": 37,
+    "checkpoint_validation_accuracy": 0.9692307692307692,
+    "test_samples": 65,
+    "test_loss": 0.1405015484071695,
+    "test_accuracy": 0.9692307692307692,
+    "test_macro_f1": 0.9512195121951219,
+    "test_weighted_f1": 0.964102564102564
+}

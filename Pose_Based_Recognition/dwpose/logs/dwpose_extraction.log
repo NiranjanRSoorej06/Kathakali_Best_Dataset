@@ -1,0 +1,984 @@
+nohup: ignoring input
+Discovered videos: 430
+Classes: 41
+Loading DWPose...
+DWPose loaded.
+[1/430] SKIP Anugraham/Anugraham_1.mp4
+[2/430] SKIP Anugraham/Anugraham_10.mp4
+[3/430] SKIP Anugraham/Anugraham_11.mp4
+[4/430] SKIP Anugraham/Anugraham_2.mp4
+[5/430] SKIP Anugraham/Anugraham_3.mp4
+[6/430] SKIP Anugraham/Anugraham_4.mp4
+[7/430] SKIP Anugraham/Anugraham_5.mp4
+[8/430] SKIP Anugraham/Anugraham_6.mp4
+[9/430] SKIP Anugraham/Anugraham_7.mp4
+[10/430] SKIP Anugraham/Anugraham_8.mp4
+[11/430] SKIP Anugraham/Anugraham_9.mp4
+[12/430] SKIP Ariyikkuka/Ariyikkuka_1.mp4
+[13/430] SKIP Ariyikkuka/Ariyikkuka_10.mp4
+[14/430] SKIP Ariyikkuka/Ariyikkuka_11.mp4
+[15/430] SKIP Ariyikkuka/Ariyikkuka_2.mp4
+[16/430] SKIP Ariyikkuka/Ariyikkuka_3.mp4
+[17/430] SKIP Ariyikkuka/Ariyikkuka_4.mp4
+[18/430] SKIP Ariyikkuka/Ariyikkuka_5.mp4
+[19/430] SKIP Ariyikkuka/Ariyikkuka_6.mp4
+[20/430] SKIP Ariyikkuka/Ariyikkuka_7.mp4
+[21/430] SKIP Ariyikkuka/Ariyikkuka_8.mp4
+[22/430] SKIP Ariyikkuka/Ariyikkuka_9.mp4
+[23/430] SKIP Kallan/Kallan_1.mp4
+[24/430] SKIP Kallan/Kallan_10.mp4
+[25/430] SKIP Kallan/Kallan_11.mp4
+[26/430] SKIP Kallan/Kallan_2.mp4
+[27/430] SKIP Kallan/Kallan_3.mp4
+[28/430] SKIP Kallan/Kallan_4.mp4
+[29/430] SKIP Kallan/Kallan_5.mp4
+[30/430] SKIP Kallan/Kallan_6.mp4
+[31/430] SKIP Kallan/Kallan_7.mp4
+[32/430] SKIP Kallan/Kallan_8.mp4
+[33/430] SKIP Kallan/Kallan_9.mp4
+[34/430] SKIP Kannu/Kannu_1.mp4
+[35/430] SKIP Kannu/Kannu_10.mp4
+[36/430] SKIP Kannu/Kannu_11.mp4
+[37/430] SKIP Kannu/Kannu_2.mp4
+[38/430] SKIP Kannu/Kannu_3.mp4
+[39/430] SKIP Kannu/Kannu_4.mp4
+[40/430] SKIP Kannu/Kannu_5.mp4
+[41/430] SKIP Kannu/Kannu_6.mp4
+[42/430] SKIP Kannu/Kannu_7.mp4
+[43/430] SKIP Kannu/Kannu_8.mp4
+[44/430] SKIP Kannu/Kannu_9.mp4
+[45/430] SKIP Pazham/Pazham_1.mp4
+[46/430] SKIP Pazham/Pazham_10.mp4
+[47/430] SKIP Pazham/Pazham_11.mp4
+[48/430] SKIP Pazham/Pazham_2.mp4
+[49/430] SKIP Pazham/Pazham_3.mp4
+[50/430] SKIP Pazham/Pazham_4.mp4
+[51/430] SKIP Pazham/Pazham_5.mp4
+[52/430] SKIP Pazham/Pazham_6.mp4
+[53/430] SKIP Pazham/Pazham_7.mp4
+[54/430] SKIP Pazham/Pazham_8.mp4
+[55/430] SKIP Pazham/Pazham_9.mp4
+[56/430] SKIP Pushpam/Pushpam_1.mp4
+[57/430] SKIP Pushpam/Pushpam_10.mp4
+[58/430] SKIP Pushpam/Pushpam_11.mp4
+[59/430] SKIP Pushpam/Pushpam_2.mp4
+[60/430] SKIP Pushpam/Pushpam_3.mp4
+[61/430] SKIP Pushpam/Pushpam_4.mp4
+[62/430] SKIP Pushpam/Pushpam_5.mp4
+[63/430] SKIP Pushpam/Pushpam_6.mp4
+[64/430] SKIP Pushpam/Pushpam_7.mp4
+[65/430] SKIP Pushpam/Pushpam_8.mp4
+[66/430] SKIP Pushpam/Pushpam_9.mp4
+[67/430] SKIP Thaamara/Thaamara_1.mp4
+[68/430] SKIP Thaamara/Thaamara_10.mp4
+[69/430] SKIP Thaamara/Thaamara_11.mp4
+[70/430] SKIP Thaamara/Thaamara_2.mp4
+[71/430] SKIP Thaamara/Thaamara_3.mp4
+[72/430] SKIP Thaamara/Thaamara_4.mp4
+[73/430] SKIP Thaamara/Thaamara_5.mp4
+[74/430] SKIP Thaamara/Thaamara_6.mp4
+[75/430] SKIP Thaamara/Thaamara_7.mp4
+[76/430] SKIP Thaamara/Thaamara_8.mp4
+[77/430] SKIP Thaamara/Thaamara_9.mp4
+[78/430] SKIP Thalamudi/Thalamudi_1.mp4
+[79/430] SKIP Thalamudi/Thalamudi_10.mp4
+[80/430] SKIP Thalamudi/Thalamudi_11.mp4
+[81/430] SKIP Thalamudi/Thalamudi_2.mp4
+[82/430] SKIP Thalamudi/Thalamudi_3.mp4
+[83/430] FAILED Thalamudi/Thalamudi_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cublasStatus_t; bool THRW = true; SUCCTYPE = cublasStatus_t; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cublasStatus_t; bool THRW = true; SUCCTYPE = cublasStatus_t; std::conditional_t<THRW, void, common::Status> = void] CUBLAS failure 3: CUBLAS_STATUS_ALLOC_FAILED ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=74 ; expr=cublasCreate(&cublas_handle_); 
+
+
+[84/430] FAILED Thalamudi/Thalamudi_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cublasStatus_t; bool THRW = true; SUCCTYPE = cublasStatus_t; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cublasStatus_t; bool THRW = true; SUCCTYPE = cublasStatus_t; std::conditional_t<THRW, void, common::Status> = void] CUBLAS failure 3: CUBLAS_STATUS_ALLOC_FAILED ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=74 ; expr=cublasCreate(&cublas_handle_); 
+
+
+[85/430] FAILED Thalamudi/Thalamudi_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const [83/430] OK Thalamudi/Thalamudi_4.mp4 | valid frames: 100/100
+[84/430] OK Thalamudi/Thalamudi_5.mp4 | valid frames: 100/100
+[85/430] OK Thalamudi/Thalamudi_6.mp4 | valid frames: 100/100
+[86/430] OK Thalamudi/Thalamudi_7.mp4 | valid frames: 100/100
+[87/430] OK Thalamudi/Thalamudi_8.mp4 | valid frames: 100/100
+[88/430] OK Thalamudi/Thalamudi_9.mp4 | valid frames: 100/100
+[89/430] OK Thaliru/Thaliru_1.mp4 | valid frames: 100/100
+ SUCCTYPE = cublasStatus_t; std::conditional_t<THRW, void, common::Status> = void] CUBLAS failure 3: CUBLAS_STATUS_ALLOC_FAILED ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=74 ; expr=cublasCreate(&cublas_handle_); 
+
+
+[86/430] FAILED Thalamudi/Thalamudi_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cublasStatus_t; bool THRW = true; SUCCTYPE = cublasStatus_t; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cublasStatus_t; bool THRW = true; SUCCTYPE = cublasStatus_t; std::conditional_t<THRW, void, common::Status> = void] CUBLAS failure 3: CUBLAS_STATUS_ALLOC_FAILED ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=74 ; expr=cublasCreate(&cublas_handle_); 
+
+
+[87/430] FAILED Thalamudi/Thalamudi_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[88/430] FAILED Thalamudi/Thalamudi_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[89/430] FAILED Thaliru/Thaliru_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[90/430] FAILED Thaliru/Thaliru_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[91/430] FAILED Thaliru/Thaliru_11.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[92/430] FAILED Thaliru/Thaliru_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[93/430] FAILED Thaliru/Thaliru_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[94/430] FAILED Thaliru/Thaliru_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[95/430] FAILED Thaliru/Thaliru_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[96/430] FAILED Thaliru/Thaliru_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[97/430] FAILED Thaliru/Thaliru_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[98/430] FAILED Thaliru/Thaliru_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[99/430] FAILED Thaliru/Thaliru_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[100/430] FAILED Urakkam/Urakkam_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[101/430] FAILED Urakkam/Urakkam_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[102/430] FAILED Urakkam/Urakkam_11.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[103/430] FAILED Urakkam/Urakkam_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[104/430] FAILED Urakkam/Urakkam_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[105/430] FAILED Urakkam/Urakkam_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[106/430] FAILED Urakkam/Urakkam_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[107/430] FAILED Urakkam/Urakkam_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[108/430] FAILED Urakkam/Urakkam_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[109/430] FAILED Urakkam/Urakkam_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[110/430] FAILED Urakkam/Urakkam_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[111/430] FAILED Aakasham/Aakasham_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[112/430] FAILED Aakasham/Aakasham_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[113/430] FAILED Aakasham/Aakasham_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[114/430] FAILED Aakasham/Aakasham_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[115/430] FAILED Aana/Aana_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[116/430] FAILED Aana/Aana_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[117/430] FAILED Aana/Aana_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[118/430] FAILED Aana/Aana_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[119/430] FAILED Aana/Aana_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[120/430] FAILED Aana/Aana_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[121/430] FAILED Acchan/Acchan_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[122/430] FAILED Acchan/Acchan_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[123/430] FAILED Acchan/Acchan_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[124/430] FAILED Acchan/Acchan_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[125/430] FAILED Acchan/Acchan_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[126/430] FAILED Amma/Amma_11.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[127/430] FAILED Amma/Amma_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[128/430] FAILED Amma/Amma_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[129/430] FAILED Amma/Amma_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[130/430] FAILED Baalan/Baalan_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[131/430] FAILED Baalan/Baalan_11.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[132/430] FAILED Baalan/Baalan_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[133/430] FAILED Baalan/Baalan_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[134/430] FAILED Baalan/Baalan_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[135/430] FAILED Baalan/Baalan_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[136/430] FAILED Baalan/Baalan_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[137/430] FAILED Baalan/Baalan_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[138/430] FAILED Bhoomi/Bhoomi_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[139/430] FAILED Bhoomi/Bhoomi_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[140/430] FAILED Bhoomi/Bhoomi_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[141/430] FAILED Bhoomi/Bhoomi_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[142/430] FAILED Bhrahmaavu/Bhrahmaavu_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[143/430] FAILED Bhrahmaavu/Bhrahmaavu_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[144/430] FAILED Bhrahmaavu/Bhrahmaavu_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[145/430] FAILED Bhrahmaavu/Bhrahmaavu_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[146/430] FAILED Bhrahmaavu/Bhrahmaavu_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[147/430] FAILED Bhrahmaavu/Bhrahmaavu_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[148/430] FAILED Bhrahmaavu/Bhrahmaavu_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[149/430] FAILED Bhrahmaavu/Bhrahmaavu_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[150/430] FAILED Bhrahmaavu/Bhrahmaavu_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[151/430] FAILED Irikkuka/Irikkuka_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[152/430] FAILED Irikkuka/Irikkuka_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[153/430] FAILED Irikkuka/Irikkuka_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[154/430] FAILED Irikkuka/Irikkuka_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[155/430] FAILED Irikkuka/Irikkuka_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[156/430] FAILED Irikkuka/Irikkuka_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[157/430] FAILED Irikkuka/Irikkuka_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[158/430] FAILED Irikkuka/Irikkuka_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[159/430] FAILED Irikkuka/Irikkuka_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[160/430] FAILED Nadakkuka/Nadakkuka_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[161/430] FAILED Nadakkuka/Nadakkuka_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[162/430] FAILED Nadakkuka/Nadakkuka_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[163/430] FAILED Nadakkuka/Nadakkuka_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[164/430] FAILED Nee_Roudram/Nee_Roudram_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[165/430] FAILED Nee_Roudram/Nee_Roudram_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[166/430] FAILED Nee_Roudram/Nee_Roudram_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[167/430] FAILED Nee_Roudram/Nee_Roudram_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[168/430] FAILED Paadam/Paadam_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[169/430] FAILED Paadam/Paadam_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[170/430] FAILED Paadam/Paadam_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[171/430] FAILED Paadam/Paadam_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[172/430] FAILED Samudram/Samudram_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[173/430] FAILED Samudram/Samudram_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[174/430] FAILED Samudram/Samudram_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[175/430] FAILED Samudram/Samudram_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[176/430] FAILED Samudram/Samudram_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[177/430] FAILED Satyam/Satyam_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[178/430] FAILED Satyam/Satyam_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[179/430] FAILED Satyam/Satyam_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[180/430] FAILED Satyam/Satyam_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[181/430] FAILED Satyam/Satyam_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[182/430] FAILED Satyam/Satyam_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[183/430] FAILED Satyam/Satyam_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[184/430] FAILED Satyam/Satyam_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[185/430] FAILED Satyam/Satyam_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[186/430] FAILED Simham/Simham_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[187/430] FAILED Sooryan/Sooryan_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[188/430] FAILED Sooryan/Sooryan_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[189/430] FAILED Sooryan/Sooryan_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[190/430] FAILED Sooryan/Sooryan_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[191/430] FAILED Svargam/Svargam_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[192/430] FAILED Svargam/Svargam_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[193/430] FAILED Svargam/Svargam_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[194/430] FAILED Svargam/Svargam_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[195/430] FAILED Vriksham/Vriksham_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[196/430] FAILED Vriksham/Vriksham_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[197/430] FAILED Vriksham/Vriksham_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[198/430] FAILED Vriksham/Vriksham_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[199/430] FAILED Vriksham/Vriksham_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[200/430] FAILED Aakasham/Aakasham_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[201/430] FAILED Aakasham/Aakasham_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[202/430] FAILED Aakasham/Aakasham_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[203/430] FAILED Aana/Aana_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[204/430] FAILED Aana/Aana_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[205/430] FAILED Aana/Aana_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[206/430] FAILED Acchan/Acchan_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[207/430] FAILED Acchan/Acchan_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[208/430] FAILED Acchan/Acchan_6.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[209/430] FAILED Acchan/Acchan_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[210/430] FAILED Amma/Amma_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[211/430] FAILED Amma/Amma_3.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[212/430] FAILED Amma/Amma_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[213/430] FAILED Amma/Amma_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[214/430] FAILED Baalan/Baalan_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[215/430] FAILED Bhoomi/Bhoomi_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[216/430] FAILED Bhoomi/Bhoomi_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[217/430] FAILED Bhoomi/Bhoomi_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[218/430] FAILED Bhrahmaavu/Bhrahmaavu_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[219/430] FAILED Chundu/Chundu_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[220/430] FAILED Chundu/Chundu_11.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[221/430] FAILED Chundu/Chundu_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[222/430] FAILED Chundu/Chundu_7.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[223/430] FAILED Chundu/Chundu_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[224/430] FAILED Chundu/Chundu_9.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[225/430] FAILED Gunam/Gunam_5.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[226/430] FAILED Gunam/Gunam_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[227/430] FAILED Irikkuka/Irikkuka_4.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[228/430] FAILED Kaadu/Kaadu_1.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[229/430] FAILED Kaadu/Kaadu_2.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[230/430] FAILED Manassu/Manassu_8.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+[231/430] FAILED Nadakkuka/Nadakkuka_10.mp4: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:129 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] /onnxruntime_src/onnxruntime/core/providers/cuda/cuda_call.cc:121 std::conditional_t<THRW, void, onnxruntime::common::Status> onnxruntime::CudaCall(ERRTYPE, const char*, const char*, SUCCTYPE, const char*, const char*, int) [with ERRTYPE = cudaError; bool THRW = true; SUCCTYPE = cudaError; std::conditional_t<THRW, void, common::Status> = void] CUDA failure 2: out of memory ; GPU=0 ; hostname=edbb0a9cb4f1 ; file=/onnxruntime_src/onnxruntime/core/providers/cuda/cuda_stream_handle.cc ; line=257 ; expr=cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking); 
+
+
+nohup: ignoring input
+Discovered videos: 430
+Classes: 41
+Loading DWPose...
+[0;93m2026-11-23 06:23:50.778971305 [W:onnxruntime:, session_state.cc:1316 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+[0;93m2026-11-23 06:23:50.779131792 [W:onnxruntime:, session_state.cc:1318 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+DWPose loaded.
+[1/430] SKIP Anugraham/Anugraham_1.mp4
+[2/430] SKIP Anugraham/Anugraham_10.mp4
+[3/430] SKIP Anugraham/Anugraham_11.mp4
+[4/430] SKIP Anugraham/Anugraham_2.mp4
+[5/430] SKIP Anugraham/Anugraham_3.mp4
+[6/430] SKIP Anugraham/Anugraham_4.mp4
+[7/430] SKIP Anugraham/Anugraham_5.mp4
+[8/430] SKIP Anugraham/Anugraham_6.mp4
+[9/430] SKIP Anugraham/Anugraham_7.mp4
+[10/430] SKIP Anugraham/Anugraham_8.mp4
+[11/430] SKIP Anugraham/Anugraham_9.mp4
+[12/430] SKIP Ariyikkuka/Ariyikkuka_1.mp4
+[13/430] SKIP Ariyikkuka/Ariyikkuka_10.mp4
+[14/430] SKIP Ariyikkuka/Ariyikkuka_11.mp4
+[15/430] SKIP Ariyikkuka/Ariyikkuka_2.mp4
+[16/430] SKIP Ariyikkuka/Ariyikkuka_3.mp4
+[17/430] SKIP Ariyikkuka/Ariyikkuka_4.mp4
+[18/430] SKIP Ariyikkuka/Ariyikkuka_5.mp4
+[19/430] SKIP Ariyikkuka/Ariyikkuka_6.mp4
+[20/430] SKIP Ariyikkuka/Ariyikkuka_7.mp4
+[21/430] SKIP Ariyikkuka/Ariyikkuka_8.mp4
+[22/430] SKIP Ariyikkuka/Ariyikkuka_9.mp4
+[23/430] SKIP Kallan/Kallan_1.mp4
+[24/430] SKIP Kallan/Kallan_10.mp4
+[25/430] SKIP Kallan/Kallan_11.mp4
+[26/430] SKIP Kallan/Kallan_2.mp4
+[27/430] SKIP Kallan/Kallan_3.mp4
+[28/430] SKIP Kallan/Kallan_4.mp4
+[29/430] SKIP Kallan/Kallan_5.mp4
+[30/430] SKIP Kallan/Kallan_6.mp4
+[31/430] SKIP Kallan/Kallan_7.mp4
+[32/430] SKIP Kallan/Kallan_8.mp4
+[33/430] SKIP Kallan/Kallan_9.mp4
+[34/430] SKIP Kannu/Kannu_1.mp4
+[35/430] SKIP Kannu/Kannu_10.mp4
+[36/430] SKIP Kannu/Kannu_11.mp4
+[37/430] SKIP Kannu/Kannu_2.mp4
+[38/430] SKIP Kannu/Kannu_3.mp4
+[39/430] SKIP Kannu/Kannu_4.mp4
+[40/430] SKIP Kannu/Kannu_5.mp4
+[41/430] SKIP Kannu/Kannu_6.mp4
+[42/430] SKIP Kannu/Kannu_7.mp4
+[43/430] SKIP Kannu/Kannu_8.mp4
+[44/430] SKIP Kannu/Kannu_9.mp4
+[45/430] SKIP Pazham/Pazham_1.mp4
+[46/430] SKIP Pazham/Pazham_10.mp4
+[47/430] SKIP Pazham/Pazham_11.mp4
+[48/430] SKIP Pazham/Pazham_2.mp4
+[49/430] SKIP Pazham/Pazham_3.mp4
+[50/430] SKIP Pazham/Pazham_4.mp4
+[51/430] SKIP Pazham/Pazham_5.mp4
+[52/430] SKIP Pazham/Pazham_6.mp4
+[53/430] SKIP Pazham/Pazham_7.mp4
+[54/430] SKIP Pazham/Pazham_8.mp4
+[55/430] SKIP Pazham/Pazham_9.mp4
+[56/430] SKIP Pushpam/Pushpam_1.mp4
+[57/430] SKIP Pushpam/Pushpam_10.mp4
+[58/430] SKIP Pushpam/Pushpam_11.mp4
+[59/430] SKIP Pushpam/Pushpam_2.mp4
+[60/430] SKIP Pushpam/Pushpam_3.mp4
+[61/430] SKIP Pushpam/Pushpam_4.mp4
+[62/430] SKIP Pushpam/Pushpam_5.mp4
+[63/430] SKIP Pushpam/Pushpam_6.mp4
+[64/430] SKIP Pushpam/Pushpam_7.mp4
+[65/430] SKIP Pushpam/Pushpam_8.mp4
+[66/430] SKIP Pushpam/Pushpam_9.mp4
+[67/430] SKIP Thaamara/Thaamara_1.mp4
+[68/430] SKIP Thaamara/Thaamara_10.mp4
+[69/430] SKIP Thaamara/Thaamara_11.mp4
+[70/430] SKIP Thaamara/Thaamara_2.mp4
+[71/430] SKIP Thaamara/Thaamara_3.mp4
+[72/430] SKIP Thaamara/Thaamara_4.mp4
+[73/430] SKIP Thaamara/Thaamara_5.mp4
+[74/430] SKIP Thaamara/Thaamara_6.mp4
+[75/430] SKIP Thaamara/Thaamara_7.mp4
+[76/430] SKIP Thaamara/Thaamara_8.mp4
+[77/430] SKIP Thaamara/Thaamara_9.mp4
+[78/430] SKIP Thalamudi/Thalamudi_1.mp4
+[79/430] SKIP Thalamudi/Thalamudi_10.mp4
+[80/430] SKIP Thalamudi/Thalamudi_11.mp4
+[81/430] SKIP Thalamudi/Thalamudi_2.mp4
+[82/430] SKIP Thalamudi/Thalamudi_3.mp4
+[83/430] SKIP Thalamudi/Thalamudi_4.mp4
+[84/430] SKIP Thalamudi/Thalamudi_5.mp4
+[85/430] SKIP Thalamudi/Thalamudi_6.mp4
+[86/430] SKIP Thalamudi/Thalamudi_7.mp4
+[87/430] SKIP Thalamudi/Thalamudi_8.mp4
+[88/430] SKIP Thalamudi/Thalamudi_9.mp4
+[89/430] SKIP Thaliru/Thaliru_1.mp4
+[90/430] OK Thaliru/Thaliru_10.mp4 | valid frames: 100/100
+[91/430] OK Thaliru/Thaliru_11.mp4 | valid frames: 100/100
+[92/430] OK Thaliru/Thaliru_2.mp4 | valid frames: 100/100
+[93/430] OK Thaliru/Thaliru_3.mp4 | valid frames: 100/100
+[94/430] OK Thaliru/Thaliru_4.mp4 | valid frames: 100/100
+[95/430] OK Thaliru/Thaliru_5.mp4 | valid frames: 100/100
+[96/430] OK Thaliru/Thaliru_6.mp4 | valid frames: 100/100
+[97/430] OK Thaliru/Thaliru_7.mp4 | valid frames: 100/100
+[98/430] OK Thaliru/Thaliru_8.mp4 | valid frames: 100/100
+[99/430] OK Thaliru/Thaliru_9.mp4 | valid frames: 100/100
+[100/430] OK Urakkam/Urakkam_1.mp4 | valid frames: 100/100
+[101/430] OK Urakkam/Urakkam_10.mp4 | valid frames: 100/100
+[102/430] OK Urakkam/Urakkam_11.mp4 | valid frames: 100/100
+[103/430] OK Urakkam/Urakkam_2.mp4 | valid frames: 100/100
+[104/430] OK Urakkam/Urakkam_3.mp4 | valid frames: 100/100
+[105/430] OK Urakkam/Urakkam_4.mp4 | valid frames: 100/100
+[106/430] OK Urakkam/Urakkam_5.mp4 | valid frames: 100/100
+[107/430] OK Urakkam/Urakkam_6.mp4 | valid frames: 100/100
+[108/430] OK Urakkam/Urakkam_7.mp4 | valid frames: 100/100
+[109/430] OK Urakkam/Urakkam_8.mp4 | valid frames: 100/100
+[110/430] OK Urakkam/Urakkam_9.mp4 | valid frames: 100/100
+[111/430] OK Aakasham/Aakasham_1.mp4 | valid frames: 100/100
+[112/430] OK Aakasham/Aakasham_2.mp4 | valid frames: 100/100
+[113/430] OK Aakasham/Aakasham_5.mp4 | valid frames: 100/100
+[114/430] OK Aakasham/Aakasham_6.mp4 | valid frames: 100/100
+[115/430] OK Aana/Aana_1.mp4 | valid frames: 100/100
+[116/430] OK Aana/Aana_10.mp4 | valid frames: 100/100
+[117/430] OK Aana/Aana_2.mp4 | valid frames: 100/100
+[118/430] OK Aana/Aana_3.mp4 | valid frames: 100/100
+[119/430] OK Aana/Aana_5.mp4 | valid frames: 100/100
+[120/430] OK Aana/Aana_6.mp4 | valid frames: 100/100
+[121/430] OK Acchan/Acchan_1.mp4 | valid frames: 100/100
+[122/430] OK Acchan/Acchan_2.mp4 | valid frames: 100/100
+[123/430] OK Acchan/Acchan_3.mp4 | valid frames: 100/100
+[124/430] OK Acchan/Acchan_5.mp4 | valid frames: 100/100
+[125/430] OK Acchan/Acchan_8.mp4 | valid frames: 100/100
+[126/430] OK Amma/Amma_11.mp4 | valid frames: 100/100
+[127/430] OK Amma/Amma_4.mp4 | valid frames: 100/100
+[128/430] OK Amma/Amma_7.mp4 | valid frames: 100/100
+[129/430] OK Amma/Amma_8.mp4 | valid frames: 100/100
+[130/430] OK Baalan/Baalan_10.mp4 | valid frames: 100/100
+[131/430] OK Baalan/Baalan_11.mp4 | valid frames: 100/100
+[132/430] OK Baalan/Baalan_2.mp4 | valid frames: 100/100
+[133/430] OK Baalan/Baalan_3.mp4 | valid frames: 100/100
+[134/430] OK Baalan/Baalan_4.mp4 | valid frames: 100/100
+[135/430] OK Baalan/Baalan_5.mp4 | valid frames: 100/100
+[136/430] OK Baalan/Baalan_8.mp4 | valid frames: 100/100
+[137/430] OK Baalan/Baalan_9.mp4 | valid frames: 100/100
+[138/430] OK Bhoomi/Bhoomi_1.mp4 | valid frames: 100/100
+[139/430] OK Bhoomi/Bhoomi_2.mp4 | valid frames: 100/100
+[140/430] OK Bhoomi/Bhoomi_5.mp4 | valid frames: 100/100
+[141/430] OK Bhoomi/Bhoomi_6.mp4 | valid frames: 100/100
+[142/430] OK Bhrahmaavu/Bhrahmaavu_1.mp4 | valid frames: 100/100
+[143/430] OK Bhrahmaavu/Bhrahmaavu_10.mp4 | valid frames: 100/100
+[144/430] OK Bhrahmaavu/Bhrahmaavu_2.mp4 | valid frames: 100/100
+[145/430] OK Bhrahmaavu/Bhrahmaavu_3.mp4 | valid frames: 100/100
+[146/430] OK Bhrahmaavu/Bhrahmaavu_4.mp4 | valid frames: 100/100
+[147/430] OK Bhrahmaavu/Bhrahmaavu_5.mp4 | valid frames: 100/100
+[148/430] OK Bhrahmaavu/Bhrahmaavu_6.mp4 | valid frames: 100/100
+[149/430] OK Bhrahmaavu/Bhrahmaavu_7.mp4 | valid frames: 100/100
+[150/430] OK Bhrahmaavu/Bhrahmaavu_8.mp4 | valid frames: 100/100
+[151/430] OK Irikkuka/Irikkuka_1.mp4 | valid frames: 100/100
+[152/430] OK Irikkuka/Irikkuka_10.mp4 | valid frames: 100/100
+[153/430] OK Irikkuka/Irikkuka_2.mp4 | valid frames: 100/100
+[154/430] OK Irikkuka/Irikkuka_3.mp4 | valid frames: 100/100
+[155/430] OK Irikkuka/Irikkuka_5.mp4 | valid frames: 100/100
+[156/430] OK Irikkuka/Irikkuka_6.mp4 | valid frames: 100/100
+[157/430] OK Irikkuka/Irikkuka_7.mp4 | valid frames: 100/100
+[158/430] OK Irikkuka/Irikkuka_8.mp4 | valid frames: 100/100
+[159/430] OK Irikkuka/Irikkuka_9.mp4 | valid frames: 100/100
+[160/430] OK Nadakkuka/Nadakkuka_1.mp4 | valid frames: 100/100
+[161/430] OK Nadakkuka/Nadakkuka_2.mp4 | valid frames: 100/100
+[162/430] OK Nadakkuka/Nadakkuka_5.mp4 | valid frames: 100/100
+[163/430] OK Nadakkuka/Nadakkuka_6.mp4 | valid frames: 100/100
+[164/430] OK Nee_Roudram/Nee_Roudram_1.mp4 | valid frames: 100/100
+[165/430] OK Nee_Roudram/Nee_Roudram_2.mp4 | valid frames: 100/100
+[166/430] OK Nee_Roudram/Nee_Roudram_5.mp4 | valid frames: 100/100
+[167/430] OK Nee_Roudram/Nee_Roudram_6.mp4 | valid frames: 100/100
+[168/430] OK Paadam/Paadam_1.mp4 | valid frames: 100/100
+[169/430] OK Paadam/Paadam_2.mp4 | valid frames: 100/100
+[170/430] OK Paadam/Paadam_4.mp4 | valid frames: 100/100
+[171/430] OK Paadam/Paadam_6.mp4 | valid frames: 100/100
+[172/430] OK Samudram/Samudram_1.mp4 | valid frames: 100/100
+[173/430] OK Samudram/Samudram_2.mp4 | valid frames: 100/100
+[174/430] OK Samudram/Samudram_4.mp4 | valid frames: 100/100
+[175/430] OK Samudram/Samudram_5.mp4 | valid frames: 100/100
+[176/430] OK Samudram/Samudram_6.mp4 | valid frames: 100/100
+[177/430] OK Satyam/Satyam_1.mp4 | valid frames: 100/100
+[178/430] OK Satyam/Satyam_10.mp4 | valid frames: 100/100
+[179/430] OK Satyam/Satyam_2.mp4 | valid frames: 100/100
+[180/430] OK Satyam/Satyam_3.mp4 | valid frames: 100/100
+[181/430] OK Satyam/Satyam_4.mp4 | valid frames: 100/100
+[182/430] OK Satyam/Satyam_5.mp4 | valid frames: 100/100
+[183/430] OK Satyam/Satyam_6.mp4 | valid frames: 100/100
+[184/430] OK Satyam/Satyam_8.mp4 | valid frames: 100/100
+[185/430] OK Satyam/Satyam_9.mp4 | valid frames: 100/100
+[186/430] OK Simham/Simham_2.mp4 | valid frames: 100/100
+[187/430] OK Sooryan/Sooryan_2.mp4 | valid frames: 100/100
+[188/430] OK Sooryan/Sooryan_5.mp4 | valid frames: 100/100
+[189/430] OK Sooryan/Sooryan_6.mp4 | valid frames: 100/100
+[190/430] OK Sooryan/Sooryan_8.mp4 | valid frames: 100/100
+[191/430] OK Svargam/Svargam_1.mp4 | valid frames: 100/100
+[192/430] OK Svargam/Svargam_2.mp4 | valid frames: 100/100
+[193/430] OK Svargam/Svargam_5.mp4 | valid frames: 100/100
+[194/430] OK Svargam/Svargam_6.mp4 | valid frames: 100/100
+[195/430] OK Vriksham/Vriksham_2.mp4 | valid frames: 100/100
+[196/430] OK Vriksham/Vriksham_3.mp4 | valid frames: 100/100
+[197/430] OK Vriksham/Vriksham_4.mp4 | valid frames: 100/100
+[198/430] OK Vriksham/Vriksham_5.mp4 | valid frames: 100/100
+[199/430] OK Vriksham/Vriksham_6.mp4 | valid frames: 100/100
+[200/430] OK Aakasham/Aakasham_10.mp4 | valid frames: 100/100
+[201/430] OK Aakasham/Aakasham_4.mp4 | valid frames: 100/100
+[202/430] OK Aakasham/Aakasham_8.mp4 | valid frames: 100/100
+[203/430] OK Aana/Aana_4.mp4 | valid frames: 100/100
+[204/430] OK Aana/Aana_7.mp4 | valid frames: 100/100
+[205/430] OK Aana/Aana_8.mp4 | valid frames: 100/100
+[206/430] OK Acchan/Acchan_10.mp4 | valid frames: 100/100
+[207/430] OK Acchan/Acchan_4.mp4 | valid frames: 100/100
+[208/430] OK Acchan/Acchan_6.mp4 | valid frames: 100/100
+[209/430] OK Acchan/Acchan_7.mp4 | valid frames: 100/100
+[210/430] OK Amma/Amma_10.mp4 | valid frames: 100/100
+[211/430] OK Amma/Amma_3.mp4 | valid frames: 100/100
+[212/430] OK Amma/Amma_5.mp4 | valid frames: 100/100
+[213/430] OK Amma/Amma_9.mp4 | valid frames: 100/100
+[214/430] OK Baalan/Baalan_7.mp4 | valid frames: 100/100
+[215/430] OK Bhoomi/Bhoomi_7.mp4 | valid frames: 100/100
+[216/430] OK Bhoomi/Bhoomi_8.mp4 | valid frames: 100/100
+[217/430] OK Bhoomi/Bhoomi_9.mp4 | valid frames: 100/100
+[218/430] OK Bhrahmaavu/Bhrahmaavu_9.mp4 | valid frames: 100/100
+[219/430] OK Chundu/Chundu_10.mp4 | valid frames: 100/100
+[220/430] OK Chundu/Chundu_11.mp4 | valid frames: 100/100
+[221/430] OK Chundu/Chundu_5.mp4 | valid frames: 100/100
+[222/430] OK Chundu/Chundu_7.mp4 | valid frames: 100/100
+[223/430] OK Chundu/Chundu_8.mp4 | valid frames: 100/100
+[224/430] OK Chundu/Chundu_9.mp4 | valid frames: 100/100
+[225/430] OK Gunam/Gunam_5.mp4 | valid frames: 100/100
+[226/430] OK Gunam/Gunam_8.mp4 | valid frames: 100/100
+[227/430] OK Irikkuka/Irikkuka_4.mp4 | valid frames: 100/100
+[228/430] OK Kaadu/Kaadu_1.mp4 | valid frames: 100/100
+[229/430] OK Kaadu/Kaadu_2.mp4 | valid frames: 100/100
+[230/430] OK Manassu/Manassu_8.mp4 | valid frames: 100/100
+[231/430] OK Nadakkuka/Nadakkuka_10.mp4 | valid frames: 100/100
+[232/430] OK Nadakkuka/Nadakkuka_4.mp4 | valid frames: 100/100
+[233/430] OK Nadakkuka/Nadakkuka_7.mp4 | valid frames: 100/100
+[234/430] OK Nee_Roudram/Nee_Roudram_7.mp4 | valid frames: 100/100
+[235/430] OK Nee_Roudram/Nee_Roudram_9.mp4 | valid frames: 100/100
+[236/430] OK Nee_Shringaaram/Nee_Shringaaram_2.mp4 | valid frames: 100/100
+[237/430] OK Paadam/Paadam_3.mp4 | valid frames: 100/100
+[238/430] OK Paadam/Paadam_5.mp4 | valid frames: 100/100
+[239/430] OK Paadam/Paadam_7.mp4 | valid frames: 100/100
+[240/430] OK Paadam/Paadam_8.mp4 | valid frames: 100/100
+[241/430] OK Samudram/Samudram_9.mp4 | valid frames: 100/100
+[242/430] OK Satyam/Satyam_7.mp4 | valid frames: 100/100
+[243/430] OK Simham/Simham_1.mp4 | valid frames: 100/100
+[244/430] OK Simham/Simham_5.mp4 | valid frames: 100/100
+[245/430] OK Simham/Simham_6.mp4 | valid frames: 100/100
+[246/430] OK Simham/Simham_7.mp4 | valid frames: 100/100
+[247/430] OK Simham/Simham_8.mp4 | valid frames: 100/100
+[248/430] OK Sooryan/Sooryan_1.mp4 | valid frames: 100/100
+[249/430] OK Sooryan/Sooryan_7.mp4 | valid frames: 100/100
+[250/430] OK Sooryan/Sooryan_9.mp4 | valid frames: 100/100
+[251/430] OK Svargam/Svargam_3.mp4 | valid frames: 100/100
+[252/430] OK Svargam/Svargam_7.mp4 | valid frames: 100/100
+[253/430] OK Vishnu/Vishnu_3.mp4 | valid frames: 100/100
+[254/430] OK Vriksham/Vriksham_1.mp4 | valid frames: 100/100
+[255/430] OK Aakasham/Aakasham_7.mp4 | valid frames: 100/100
+[256/430] OK Aakasham/Aakasham_9.mp4 | valid frames: 100/100
+[257/430] OK Aana/Aana_9.mp4 | valid frames: 100/100
+[258/430] OK Aayudham/Aayudham_10.mp4 | valid frames: 100/100
+[259/430] OK Aayudham/Aayudham_4.mp4 | valid frames: 100/100
+[260/430] OK Aayudham/Aayudham_6.mp4 | valid frames: 100/100
+[261/430] OK Aayudham/Aayudham_7.mp4 | valid frames: 100/100
+[262/430] OK Aayudham/Aayudham_8.mp4 | valid frames: 100/100
+[263/430] OK Aayudham/Aayudham_9.mp4 | valid frames: 100/100
+[264/430] OK Acchan/Acchan_9.mp4 | valid frames: 100/100
+[265/430] OK Albutham/Albutham_11.mp4 | valid frames: 100/100
+[266/430] OK Albutham/Albutham_3.mp4 | valid frames: 100/100
+[267/430] OK Albutham/Albutham_5.mp4 | valid frames: 100/100
+[268/430] OK Albutham/Albutham_7.mp4 | valid frames: 100/100
+[269/430] OK Amma/Amma_1.mp4 | valid frames: 100/100
+[270/430] OK Baalan/Baalan_6.mp4 | valid frames: 100/100
+[271/430] OK Bhoomi/Bhoomi_10.mp4 | valid frames: 100/100
+[272/430] OK Bhoomi/Bhoomi_3.mp4 | valid frames: 100/100
+[273/430] OK Chandran/Chandran_1.mp4 | valid frames: 100/100
+[274/430] OK Chandran/Chandran_2.mp4 | valid frames: 100/100
+[275/430] OK Chandran/Chandran_5.mp4 | valid frames: 100/100
+[276/430] OK Chandran/Chandran_6.mp4 | valid frames: 100/100
+[277/430] OK Chundu/Chundu_1.mp4 | valid frames: 100/100
+[278/430] OK Chundu/Chundu_2.mp4 | valid frames: 100/100
+[279/430] OK Chundu/Chundu_4.mp4 | valid frames: 100/100
+[280/430] OK Gunam/Gunam_11.mp4 | valid frames: 100/100
+[281/430] OK Gunam/Gunam_3.mp4 | valid frames: 100/100
+[282/430] OK Gunam/Gunam_4.mp4 | valid frames: 100/100
+[283/430] OK Gunam/Gunam_6.mp4 | valid frames: 100/100
+[284/430] OK Gunam/Gunam_9.mp4 | valid frames: 100/100
+[285/430] OK Kaadu/Kaadu_6.mp4 | valid frames: 100/100
+[286/430] OK Manassu/Manassu_10.mp4 | valid frames: 100/100
+[287/430] OK Manassu/Manassu_11.mp4 | valid frames: 100/100
+[288/430] OK Manassu/Manassu_3.mp4 | valid frames: 100/100
+[289/430] OK Manassu/Manassu_7.mp4 | valid frames: 100/100
+[290/430] OK Nee_Roudram/Nee_Roudram_10.mp4 | valid frames: 100/100
+[291/430] OK Nee_Roudram/Nee_Roudram_4.mp4 | valid frames: 100/100
+[292/430] OK Nee_Shringaaram/Nee_Shringaaram_1.mp4 | valid frames: 100/100
+[293/430] OK Paadam/Paadam_9.mp4 | valid frames: 100/100
+[294/430] OK Samudram/Samudram_3.mp4 | valid frames: 100/100
+[295/430] OK Samudram/Samudram_8.mp4 | valid frames: 100/100
+[296/430] OK Simham/Simham_10.mp4 | valid frames: 100/100
+[297/430] OK Simham/Simham_4.mp4 | valid frames: 100/100
+[298/430] OK Simham/Simham_9.mp4 | valid frames: 100/100
+[299/430] OK Sooryan/Sooryan_10.mp4 | valid frames: 100/100
+[300/430] OK Sooryan/Sooryan_3.mp4 | valid frames: 100/100
+[301/430] OK Svargam/Svargam_10.mp4 | valid frames: 100/100
+[302/430] OK Svargam/Svargam_4.mp4 | valid frames: 100/100
+[303/430] OK Svargam/Svargam_8.mp4 | valid frames: 100/100
+[304/430] OK Svargam/Svargam_9.mp4 | valid frames: 100/100
+[305/430] OK Vishnu/Vishnu_1.mp4 | valid frames: 100/100
+[306/430] OK Vishnu/Vishnu_2.mp4 | valid frames: 100/100
+[307/430] OK Vriksham/Vriksham_10.mp4 | valid frames: 100/100
+[308/430] OK Aakasham/Aakasham_3.mp4 | valid frames: 100/100
+[309/430] OK Aayudham/Aayudham_11.mp4 | valid frames: 100/100
+[310/430] OK Aayudham/Aayudham_2.mp4 | valid frames: 100/100
+[311/430] OK Albutham/Albutham_1.mp4 | valid frames: 100/100
+[312/430] OK Albutham/Albutham_10.mp4 | valid frames: 100/100
+[313/430] OK Albutham/Albutham_2.mp4 | valid frames: 100/100
+[314/430] OK Albutham/Albutham_4.mp4 | valid frames: 100/100
+[315/430] OK Albutham/Albutham_6.mp4 | valid frames: 100/100
+[316/430] OK Albutham/Albutham_9.mp4 | valid frames: 100/100
+[317/430] OK Amma/Amma_2.mp4 | valid frames: 100/100
+[318/430] OK Amma/Amma_6.mp4 | valid frames: 100/100
+[319/430] OK Baalan/Baalan_1.mp4 | valid frames: 100/100
+[320/430] OK Bhoomi/Bhoomi_4.mp4 | valid frames: 100/100
+[321/430] OK Chandran/Chandran_10.mp4 | valid frames: 100/100
+[322/430] OK Chandran/Chandran_3.mp4 | valid frames: 100/100
+[323/430] OK Chandran/Chandran_4.mp4 | valid frames: 100/100
+[324/430] OK Chundu/Chundu_3.mp4 | valid frames: 100/100
+[325/430] OK Gunam/Gunam_10.mp4 | valid frames: 100/100
+[326/430] OK Gunam/Gunam_7.mp4 | valid frames: 100/100
+[327/430] OK Kaadu/Kaadu_3.mp4 | valid frames: 100/100
+[328/430] OK Kaadu/Kaadu_7.mp4 | valid frames: 100/100
+[329/430] OK Kashtam/Kashtam_1.mp4 | valid frames: 100/100
+[330/430] OK Kashtam/Kashtam_10.mp4 | valid frames: 100/100
+[331/430] OK Kashtam/Kashtam_4.mp4 | valid frames: 100/100
+[332/430] OK Kashtam/Kashtam_9.mp4 | valid frames: 100/100
+[333/430] OK Kuyil/Kuyil_11.mp4 | valid frames: 100/100
+[334/430] OK Kuyil/Kuyil_7.mp4 | valid frames: 100/100
+[335/430] OK Kuyil/Kuyil_9.mp4 | valid frames: 100/100
+[336/430] OK Manassu/Manassu_4.mp4 | valid frames: 100/100
+[337/430] OK Nadakkuka/Nadakkuka_9.mp4 | valid frames: 100/100
+[338/430] OK Nee_Roudram/Nee_Roudram_3.mp4 | valid frames: 100/100
+[339/430] OK Nee_Shringaaram/Nee_Shringaaram_5.mp4 | valid frames: 100/100
+[340/430] OK Nee_Shringaaram/Nee_Shringaaram_6.mp4 | valid frames: 100/100
+[341/430] OK Paadam/Paadam_10.mp4 | valid frames: 100/100
+[342/430] OK Raajyam/Raajyam_11.mp4 | valid frames: 100/100
+[343/430] OK Raajyam/Raajyam_4.mp4 | valid frames: 100/100
+[344/430] OK Raajyam/Raajyam_5.mp4 | valid frames: 100/100
+[345/430] OK Raajyam/Raajyam_6.mp4 | valid frames: 100/100
+[346/430] OK Raajyam/Raajyam_8.mp4 | valid frames: 100/100
+[347/430] OK Shivan/Shivan_10.mp4 | valid frames: 100/100
+[348/430] OK Shivan/Shivan_2.mp4 | valid frames: 100/100
+[349/430] OK Shivan/Shivan_3.mp4 | valid frames: 100/100
+[350/430] OK Shivan/Shivan_6.mp4 | valid frames: 100/100
+[351/430] OK Shivan/Shivan_8.mp4 | valid frames: 100/100
+[352/430] OK Shivan/Shivan_9.mp4 | valid frames: 100/100
+[353/430] OK Simham/Simham_3.mp4 | valid frames: 100/100
+[354/430] OK Sooryan/Sooryan_4.mp4 | valid frames: 100/100
+[355/430] OK Veedu/Veedu_1.mp4 | valid frames: 100/100
+[356/430] OK Veedu/Veedu_10.mp4 | valid frames: 100/100
+[357/430] OK Veedu/Veedu_2.mp4 | valid frames: 100/100
+[358/430] OK Veedu/Veedu_3.mp4 | valid frames: 100/100
+[359/430] OK Vishnu/Vishnu_4.mp4 | valid frames: 100/100
+[360/430] OK Vishnu/Vishnu_8.mp4 | valid frames: 100/100
+[361/430] OK Aayudham/Aayudham_1.mp4 | valid frames: 100/100
+[362/430] OK Albutham/Albutham_8.mp4 | valid frames: 100/100
+[363/430] OK Chandran/Chandran_7.mp4 | valid frames: 100/100
+[364/430] OK Chandran/Chandran_8.mp4 | valid frames: 100/100
+[365/430] OK Chandran/Chandran_9.mp4 | valid frames: 100/100
+[366/430] OK Chundu/Chundu_6.mp4 | valid frames: 100/100
+[367/430] OK Gunam/Gunam_1.mp4 | valid frames: 100/100
+[368/430] OK Gunam/Gunam_2.mp4 | valid frames: 100/100
+[369/430] OK Kaadu/Kaadu_10.mp4 | valid frames: 100/100
+[370/430] OK Kaadu/Kaadu_4.mp4 | valid frames: 100/100
+[371/430] OK Kaadu/Kaadu_5.mp4 | valid frames: 100/100
+[372/430] OK Kaadu/Kaadu_9.mp4 | valid frames: 100/100
+[373/430] OK Kashtam/Kashtam_11.mp4 | valid frames: 100/100
+[374/430] OK Kashtam/Kashtam_2.mp4 | valid frames: 100/100
+[375/430] OK Kashtam/Kashtam_3.mp4 | valid frames: 100/100
+[376/430] OK Kashtam/Kashtam_8.mp4 | valid frames: 100/100
+[377/430] OK Kuyil/Kuyil_1.mp4 | valid frames: 100/100
+[378/430] OK Kuyil/Kuyil_10.mp4 | valid frames: 100/100
+[379/430] OK Kuyil/Kuyil_2.mp4 | valid frames: 100/100
+[380/430] OK Kuyil/Kuyil_5.mp4 | valid frames: 100/100
+[381/430] OK Kuyil/Kuyil_8.mp4 | valid frames: 100/100
+[382/430] OK Manassu/Manassu_2.mp4 | valid frames: 100/100
+[383/430] OK Manassu/Manassu_5.mp4 | valid frames: 100/100
+[384/430] OK Manassu/Manassu_9.mp4 | valid frames: 100/100
+[385/430] OK Nee_Roudram/Nee_Roudram_8.mp4 | valid frames: 100/100
+[386/430] OK Nee_Shringaaram/Nee_Shringaaram_10.mp4 | valid frames: 100/100
+[387/430] OK Nee_Shringaaram/Nee_Shringaaram_4.mp4 | valid frames: 100/100
+[388/430] OK Nee_Shringaaram/Nee_Shringaaram_8.mp4 | valid frames: 100/100
+[389/430] OK Raajyam/Raajyam_2.mp4 | valid frames: 100/100
+[390/430] OK Raajyam/Raajyam_9.mp4 | valid frames: 100/100
+[391/430] OK Samudram/Samudram_10.mp4 | valid frames: 100/100
+[392/430] OK Samudram/Samudram_7.mp4 | valid frames: 100/100
+[393/430] OK Shivan/Shivan_1.mp4 | valid frames: 100/100
+[394/430] OK Shivan/Shivan_4.mp4 | valid frames: 100/100
+[395/430] OK Shivan/Shivan_5.mp4 | valid frames: 100/100
+[396/430] OK Shivan/Shivan_7.mp4 | valid frames: 100/100
+[397/430] OK Veedu/Veedu_5.mp4 | valid frames: 100/100
+[398/430] OK Veedu/Veedu_6.mp4 | valid frames: 100/100
+[399/430] OK Vishnu/Vishnu_10.mp4 | valid frames: 100/100
+[400/430] OK Vishnu/Vishnu_6.mp4 | valid frames: 100/100
+[401/430] OK Vishnu/Vishnu_7.mp4 | valid frames: 100/100
+[402/430] OK Vishnu/Vishnu_9.mp4 | valid frames: 100/100
+[403/430] OK Vriksham/Vriksham_7.mp4 | valid frames: 100/100
+[404/430] OK Vriksham/Vriksham_8.mp4 | valid frames: 100/100
+[405/430] OK Vriksham/Vriksham_9.mp4 | valid frames: 100/100
+[406/430] OK Aayudham/Aayudham_3.mp4 | valid frames: 100/100
+[407/430] OK Aayudham/Aayudham_5.mp4 | valid frames: 100/100
+[408/430] OK Kaadu/Kaadu_8.mp4 | valid frames: 100/100
+[409/430] OK Kashtam/Kashtam_5.mp4 | valid frames: 100/100
+[410/430] OK Kashtam/Kashtam_6.mp4 | valid frames: 100/100
+[411/430] OK Kashtam/Kashtam_7.mp4 | valid frames: 100/100
+[412/430] OK Kuyil/Kuyil_3.mp4 | valid frames: 100/100
+[413/430] OK Kuyil/Kuyil_4.mp4 | valid frames: 100/100
+[414/430] OK Kuyil/Kuyil_6.mp4 | valid frames: 100/100
+[415/430] OK Manassu/Manassu_1.mp4 | valid frames: 100/100
+[416/430] OK Manassu/Manassu_6.mp4 | valid frames: 100/100
+[417/430] OK Nadakkuka/Nadakkuka_3.mp4 | valid frames: 100/100
+[418/430] OK Nadakkuka/Nadakkuka_8.mp4 | valid frames: 100/100
+[419/430] OK Nee_Shringaaram/Nee_Shringaaram_3.mp4 | valid frames: 100/100
+[420/430] OK Nee_Shringaaram/Nee_Shringaaram_7.mp4 | valid frames: 100/100
+[421/430] OK Nee_Shringaaram/Nee_Shringaaram_9.mp4 | valid frames: 100/100
+[422/430] OK Raajyam/Raajyam_1.mp4 | valid frames: 100/100
+[423/430] OK Raajyam/Raajyam_10.mp4 | valid frames: 100/100
+[424/430] OK Raajyam/Raajyam_3.mp4 | valid frames: 100/100
+[425/430] OK Raajyam/Raajyam_7.mp4 | valid frames: 100/100
+[426/430] OK Veedu/Veedu_4.mp4 | valid frames: 100/100
+[427/430] OK Veedu/Veedu_7.mp4 | valid frames: 100/100
+[428/430] OK Veedu/Veedu_8.mp4 | valid frames: 100/100
+[429/430] OK Veedu/Veedu_9.mp4 | valid frames: 100/100
+[430/430] OK Vishnu/Vishnu_5.mp4 | valid frames: 100/100
+
+Extraction run finished.
+Newly completed: 341
+Skipped: 89
+Failed: 0
+Output: /home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/dwpose/extracted_430/DWPose_50J_100F_41Classes

@@ -1,0 +1,573 @@
+Device: cuda (NVIDIA H100 PCIe MIG 2g.20gb)
+Training samples: 287
+Validation samples: 41
+Parameters: 289,289
+
+Starting training...
+
+Epoch 001/100 | Train Loss: 3.7725 | Train Acc: 0.0244 | Val Loss: 3.7156 | Val Acc: 0.0244 | Val Macro-F1: 0.0012 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 002/100 | Train Loss: 3.7290 | Train Acc: 0.0139 | Val Loss: 3.7031 | Val Acc: 0.0000 | Val Macro-F1: 0.0000 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 003/100 | Train Loss: 3.7184 | Train Acc: 0.0174 | Val Loss: 3.6959 | Val Acc: 0.0244 | Val Macro-F1: 0.0017 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 004/100 | Train Loss: 3.7052 | Train Acc: 0.0383 | Val Loss: 3.6752 | Val Acc: 0.0488 | Val Macro-F1: 0.0265 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 005/100 | Train Loss: 3.6705 | Train Acc: 0.0348 | Val Loss: 3.6311 | Val Acc: 0.0488 | Val Macro-F1: 0.0079 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 006/100 | Train Loss: 3.5880 | Train Acc: 0.0453 | Val Loss: 3.6000 | Val Acc: 0.0976 | Val Macro-F1: 0.0211 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 007/100 | Train Loss: 3.5551 | Train Acc: 0.0697 | Val Loss: 3.5758 | Val Acc: 0.0244 | Val Macro-F1: 0.0049 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 008/100 | Train Loss: 3.4989 | Train Acc: 0.0383 | Val Loss: 3.5537 | Val Acc: 0.0732 | Val Macro-F1: 0.0174 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 009/100 | Train Loss: 3.4719 | Train Acc: 0.0453 | Val Loss: 3.5984 | Val Acc: 0.0488 | Val Macro-F1: 0.0159 | LR: 0.001000
+Epoch 010/100 | Train Loss: 3.4507 | Train Acc: 0.0627 | Val Loss: 3.5374 | Val Acc: 0.0732 | Val Macro-F1: 0.0270 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 011/100 | Train Loss: 3.4135 | Train Acc: 0.0627 | Val Loss: 3.5446 | Val Acc: 0.0488 | Val Macro-F1: 0.0103 | LR: 0.001000
+Epoch 012/100 | Train Loss: 3.4039 | Train Acc: 0.0697 | Val Loss: 3.5552 | Val Acc: 0.0732 | Val Macro-F1: 0.0337 | LR: 0.001000
+Epoch 013/100 | Train Loss: 3.3615 | Train Acc: 0.0767 | Val Loss: 3.4724 | Val Acc: 0.0976 | Val Macro-F1: 0.0655 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 014/100 | Train Loss: 3.2561 | Train Acc: 0.1010 | Val Loss: 3.4323 | Val Acc: 0.0976 | Val Macro-F1: 0.0477 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 015/100 | Train Loss: 3.1019 | Train Acc: 0.0941 | Val Loss: 3.2810 | Val Acc: 0.0732 | Val Macro-F1: 0.0305 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 016/100 | Train Loss: 3.0927 | Train Acc: 0.0801 | Val Loss: 3.1884 | Val Acc: 0.1220 | Val Macro-F1: 0.0655 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 017/100 | Train Loss: 2.8927 | Train Acc: 0.1289 | Val Loss: 3.2203 | Val Acc: 0.1463 | Val Macro-F1: 0.0846 | LR: 0.001000
+Epoch 018/100 | Train Loss: 2.8595 | Train Acc: 0.1394 | Val Loss: 3.0857 | Val Acc: 0.2195 | Val Macro-F1: 0.1453 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 019/100 | Train Loss: 2.7772 | Train Acc: 0.1324 | Val Loss: 3.1299 | Val Acc: 0.0976 | Val Macro-F1: 0.0659 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 020/100 | Train Loss: 2.7619 | Train Acc: 0.1220 | Val Loss: 3.1320 | Val Acc: 0.1707 | Val Macro-F1: 0.1171 | LR: 0.001000
+Epoch 021/100 | Train Loss: 2.6972 | Train Acc: 0.1638 | Val Loss: 2.9804 | Val Acc: 0.1707 | Val Macro-F1: 0.1114 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 022/100 | Train Loss: 2.5561 | Train Acc: 0.2300 | Val Loss: 2.9570 | Val Acc: 0.1707 | Val Macro-F1: 0.1504 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 023/100 | Train Loss: 2.4962 | Train Acc: 0.2195 | Val Loss: 2.8435 | Val Acc: 0.2195 | Val Macro-F1: 0.1480 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 024/100 | Train Loss: 2.4746 | Train Acc: 0.2265 | Val Loss: 2.7813 | Val Acc: 0.2195 | Val Macro-F1: 0.1480 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 025/100 | Train Loss: 2.3794 | Train Acc: 0.2404 | Val Loss: 2.7305 | Val Acc: 0.2439 | Val Macro-F1: 0.1846 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 026/100 | Train Loss: 2.3781 | Train Acc: 0.2544 | Val Loss: 2.7412 | Val Acc: 0.1463 | Val Macro-F1: 0.1098 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 027/100 | Train Loss: 2.2659 | Train Acc: 0.2439 | Val Loss: 2.7715 | Val Acc: 0.2195 | Val Macro-F1: 0.1699 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 028/100 | Train Loss: 2.1703 | Train Acc: 0.2892 | Val Loss: 2.6837 | Val Acc: 0.1951 | Val Macro-F1: 0.1317 | LR: 0.001000
+  -> Best model checkpoint saved.
+Epoch 029/100 | Train Loss: 2.1477 | Train Acc: 0.2474 | Val Loss: 2.7024 | Val Acc: 0.2927 | Val Macro-F1: 0.2171 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 030/100 | Train Loss: 2.0561 | Train Acc: 0.3136 | Val Loss: 2.5625 | Val Acc: 0.2927 | Val Macro-F1: 0.2252 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 031/100 | Train Loss: 2.0597 | Train Acc: 0.3449 | Val Loss: 2.4584 | Val Acc: 0.3415 | Val Macro-F1: 0.2374 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 032/100 | Train Loss: 2.0906 | Train Acc: 0.2613 | Val Loss: 2.4718 | Val Acc: 0.3415 | Val Macro-F1: 0.2561 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 033/100 | Train Loss: 1.8669 | Train Acc: 0.3449 | Val Loss: 2.3698 | Val Acc: 0.3659 | Val Macro-F1: 0.2967 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 034/100 | Train Loss: 1.8962 | Train Acc: 0.3206 | Val Loss: 2.3440 | Val Acc: 0.3415 | Val Macro-F1: 0.2659 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 035/100 | Train Loss: 1.7482 | Train Acc: 0.3902 | Val Loss: 2.3972 | Val Acc: 0.3171 | Val Macro-F1: 0.2439 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 036/100 | Train Loss: 1.7176 | Train Acc: 0.3763 | Val Loss: 2.3250 | Val Acc: 0.2927 | Val Macro-F1: 0.2415 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 037/100 | Train Loss: 1.7032 | Train Acc: 0.3798 | Val Loss: 2.2925 | Val Acc: 0.3659 | Val Macro-F1: 0.2659 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 038/100 | Train Loss: 1.7226 | Train Acc: 0.3275 | Val Loss: 2.3738 | Val Acc: 0.3415 | Val Macro-F1: 0.2439 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 039/100 | Train Loss: 1.6202 | Train Acc: 0.4355 | Val Loss: 2.7075 | Val Acc: 0.3659 | Val Macro-F1: 0.2927 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 040/100 | Train Loss: 1.6731 | Train Acc: 0.3937 | Val Loss: 2.2425 | Val Acc: 0.3902 | Val Macro-F1: 0.3089 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 041/100 | Train Loss: 1.6023 | Train Acc: 0.3972 | Val Loss: 2.3150 | Val Acc: 0.3415 | Val Macro-F1: 0.2683 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 042/100 | Train Loss: 1.5445 | Train Acc: 0.4216 | Val Loss: 2.2668 | Val Acc: 0.3902 | Val Macro-F1: 0.3309 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 043/100 | Train Loss: 1.4902 | Train Acc: 0.4425 | Val Loss: 2.3146 | Val Acc: 0.3659 | Val Macro-F1: 0.2878 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 044/100 | Train Loss: 1.4523 | Train Acc: 0.4843 | Val Loss: 2.2842 | Val Acc: 0.3902 | Val Macro-F1: 0.3146 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 045/100 | Train Loss: 1.4974 | Train Acc: 0.4704 | Val Loss: 2.3067 | Val Acc: 0.3659 | Val Macro-F1: 0.3106 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 046/100 | Train Loss: 1.4200 | Train Acc: 0.4913 | Val Loss: 2.1997 | Val Acc: 0.4390 | Val Macro-F1: 0.3610 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 047/100 | Train Loss: 1.3019 | Train Acc: 0.5296 | Val Loss: 2.3690 | Val Acc: 0.3902 | Val Macro-F1: 0.3309 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 048/100 | Train Loss: 1.3798 | Train Acc: 0.5296 | Val Loss: 2.1114 | Val Acc: 0.3415 | Val Macro-F1: 0.2846 | LR: 0.001000
+  -> Best model checkpoint saved.
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 049/100 | Train Loss: 1.3308 | Train Acc: 0.5296 | Val Loss: 2.3324 | Val Acc: 0.3171 | Val Macro-F1: 0.2509 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 050/100 | Train Loss: 1.2972 | Train Acc: 0.4913 | Val Loss: 2.2703 | Val Acc: 0.3902 | Val Macro-F1: 0.3171 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 051/100 | Train Loss: 1.3248 | Train Acc: 0.4948 | Val Loss: 2.3710 | Val Acc: 0.3659 | Val Macro-F1: 0.3106 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 052/100 | Train Loss: 1.2427 | Train Acc: 0.5819 | Val Loss: 2.3568 | Val Acc: 0.3902 | Val Macro-F1: 0.3252 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 053/100 | Train Loss: 1.2273 | Train Acc: 0.5714 | Val Loss: 2.3705 | Val Acc: 0.4390 | Val Macro-F1: 0.3659 | LR: 0.001000
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 054/100 | Train Loss: 1.1592 | Train Acc: 0.5714 | Val Loss: 2.3449 | Val Acc: 0.3171 | Val Macro-F1: 0.2642 | LR: 0.000500
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 055/100 | Train Loss: 1.1099 | Train Acc: 0.6063 | Val Loss: 2.1941 | Val Acc: 0.3659 | Val Macro-F1: 0.2984 | LR: 0.000500
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 056/100 | Train Loss: 0.9940 | Train Acc: 0.6341 | Val Loss: 2.2175 | Val Acc: 0.3659 | Val Macro-F1: 0.2959 | LR: 0.000500
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 057/100 | Train Loss: 0.9487 | Train Acc: 0.6376 | Val Loss: 2.2311 | Val Acc: 0.4146 | Val Macro-F1: 0.3431 | LR: 0.000500
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 058/100 | Train Loss: 0.9263 | Train Acc: 0.6585 | Val Loss: 2.3676 | Val Acc: 0.3659 | Val Macro-F1: 0.3187 | LR: 0.000500
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 059/100 | Train Loss: 0.9758 | Train Acc: 0.6829 | Val Loss: 2.3401 | Val Acc: 0.3902 | Val Macro-F1: 0.3472 | LR: 0.000500
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 060/100 | Train Loss: 0.9036 | Train Acc: 0.6725 | Val Loss: 2.4267 | Val Acc: 0.4146 | Val Macro-F1: 0.3618 | LR: 0.000250
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 061/100 | Train Loss: 0.8178 | Train Acc: 0.7282 | Val Loss: 2.2527 | Val Acc: 0.3659 | Val Macro-F1: 0.3065 | LR: 0.000250
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 062/100 | Train Loss: 0.7529 | Train Acc: 0.7073 | Val Loss: 2.3208 | Val Acc: 0.3902 | Val Macro-F1: 0.3350 | LR: 0.000250
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 063/100 | Train Loss: 0.6996 | Train Acc: 0.7770 | Val Loss: 2.3130 | Val Acc: 0.3902 | Val Macro-F1: 0.3455 | LR: 0.000250
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 064/100 | Train Loss: 0.7514 | Train Acc: 0.7317 | Val Loss: 2.4133 | Val Acc: 0.4390 | Val Macro-F1: 0.3675 | LR: 0.000250
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 065/100 | Train Loss: 0.7156 | Train Acc: 0.7526 | Val Loss: 2.4512 | Val Acc: 0.3659 | Val Macro-F1: 0.3000 | LR: 0.000250
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 066/100 | Train Loss: 0.6864 | Train Acc: 0.7666 | Val Loss: 2.4539 | Val Acc: 0.4634 | Val Macro-F1: 0.4016 | LR: 0.000125
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 067/100 | Train Loss: 0.6364 | Train Acc: 0.7596 | Val Loss: 2.4043 | Val Acc: 0.4146 | Val Macro-F1: 0.3553 | LR: 0.000125
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/metrics/_classification.py:99: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(y_pred, input_name="y_pred")
+/home/niranjanr/miniconda3/envs/tfgpu/lib/python3.10/site-packages/sklearn/utils/multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  ys_types = set(type_of_target(x) for x in ys)
+Epoch 068/100 | Train Loss: 0.7003 | Train Acc: 0.7247 | Val Loss: 2.3605 | Val Acc: 0.3902 | Val Macro-F1: 0.3431 | LR: 0.000125
+
+Early stopping at epoch 68.
+
+Training finished.
+Best validation loss: 2.111360271771749
+Best epoch: 48
+Checkpoint: /home/niranjanr/Kathakali_Best_Dataset/stgcn/runs/exp8_xy_single_adjacency/best_model.pt
+Training log: /home/niranjanr/Kathakali_Best_Dataset/stgcn/logs/exp8_xy_single_adjacency/training_log.csv
+Validation metrics: /home/niranjanr/Kathakali_Best_Dataset/stgcn/logs/exp8_xy_single_adjacency/best_validation_metrics.json

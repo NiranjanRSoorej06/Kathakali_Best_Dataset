@@ -1,0 +1,12 @@
+{
+  "best_epoch": 48,
+  "best_validation_loss": 2.111360271771749,
+  "best_validation_accuracy": 0.34146341463414637,
+  "best_validation_macro_f1": 0.2845528455284553,
+  "seed": 42,
+  "epochs_configured": 100,
+  "device": "cuda",
+  "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/runs/exp8_xy_single_adjacency/best_model.pt",
+  "training_log": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/logs/exp8_xy_single_adjacency/training_log.csv"
+}

@@ -1,0 +1,9 @@
+{
+  "test_samples": 82,
+  "test_accuracy": 0.4268292682926829,
+  "test_macro_f1": 0.39849012775842035,
+  "test_weighted_f1": 0.39849012775842035,
+  "device": "cuda",
+  "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/runs/exp8_xy_single_adjacency/best_model.pt"
+}

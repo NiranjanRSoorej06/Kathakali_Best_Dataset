@@ -1,0 +1,12 @@
+{
+  "best_epoch": 100,
+  "best_validation_loss": 1.7036223411560059,
+  "best_validation_accuracy": 0.6829268292682927,
+  "best_validation_macro_f1": 0.6138211382113821,
+  "seed": 42,
+  "epochs_configured": 100,
+  "device": "cuda",
+  "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "checkpoint": "Experiment_7/runs/exp7_xy_3partition/best_model.pt",
+  "training_log": "Experiment_7/logs/exp7_xy_3partition/training_log.csv"
+}
