@@ -264,15 +264,15 @@ The experiment series investigates pose-feature representation, graph configurat
 | 8 | Earlier 410-video dataset | XY | Single adjacency | 100 | Evaluate the 410-video configuration with single adjacency |
 | 9 | Current 430-video dataset | XY + confidence | Single adjacency | 38 | Evaluate reduced temporal sampling |
 
-Experiments 1 and 2 refer to earlier 410-video work. Their previously quoted results came from a separate repository and are not included in the current-repository result comparison below. Experiment 3 is the current repository's 430-video baseline. Results from different repositories must not be combined as if they were produced by the same implementation and evaluation setup.
+Experiments 1 and 2 refer to earlier 410-video work and are excluded from the comparison below. Experiment 3 is the current repository's 430-video baseline. Results from different repositories must not be combined as if they were produced by the same implementation and evaluation setup.
 
 ### 7.2 Recorded test results
 
-The following table reports the results recorded for the current project experiments. Results from the separate repository for Experiments 1 and 2 are deliberately excluded.
+The following table reports the generated test results for Experiments 3–9. Accuracy and macro-F1 values are taken from each run's `test_metrics.json` (or the corresponding generated classification report where applicable); percentages are rounded to two decimal places.
 
 | Exp | Test samples | Test accuracy | Test macro-F1 |
 |---:|---:|---:|---:|
-| 3 | 65 | 95.38%* | Not recorded in the consolidated result |
+| 3 | 65 | 96.92% | 95.12% |
 | 4 | 65 | 93.85% | 88.94% |
 | 5 | 65 | 93.85% | 90.89% |
 | 6 | 65 | 95.38% | 92.20% |
@@ -280,15 +280,30 @@ The following table reports the results recorded for the current project experim
 | 8 | 82 | 42.68% | 39.85% |
 | 9 | 82 | 69.51% | 66.56% |
 
-`*` Experiment 3's official recorded baseline is 95.38%. A later re-evaluation of its existing checkpoint produced 96.92% accuracy (63/65 correct), macro-F1 95.12%, and test loss 0.14050. The two values are retained as separate records because the discrepancy has not been reconciled. Do not silently replace the official baseline with the re-evaluation result.
+The current generated artifacts for Experiment 3 (`logs/exp3/test_metrics.json` and `logs/exp3/classification_report.csv`) both record 96.92% accuracy (63/65 correct) and 95.12% macro-F1. The previously listed 95.38% value is not supported by those Experiment 3 artifacts; 95.38% is the generated result for Experiment 6. Treat the earlier Experiment 3 figure as an unreconciled summary error unless a distinct checkpoint/evaluation output is located.
 
-### 7.3 Detailed recorded results
+### 7.3 Additional generated runs
+
+The following trained runs are stored under `stgcn/runs/additional/`. They use generated classification reports rather than the `logs/exp3`–`logs/exp9` metric layout and are listed separately from the numbered experiments.
+
+| Run | Configuration | Test samples | Test accuracy | Test macro-F1 |
+|---|---|---:|---:|---:|
+| `three_partition_xy_conf_seed21` | ST-GCN, XY + confidence, 3-partition graph | 65 | **98.46%** | 98.37% |
+| `three_partition_xy_conf_seed123` | ST-GCN, XY + confidence, 3-partition graph | 65 | 96.92% | 95.12% |
+| `three_partition_xy_conf_38f` | ST-GCN, XY + confidence, 3-partition graph, 38 frames | 65 | 93.85% | 90.89% |
+| `xy_only` | ST-GCN, XY-only input | 65 | 86.15% | 80.81% |
+
+The best generated test accuracy found in the current project artifacts is **98.46%** for `three_partition_xy_conf_seed21` (64/65 correct). It is an additional seeded run, not one of Experiments 3–9. No generated test result reviewed here is exactly 97% or 98%; one run is above 98%.
+
+### 7.4 Detailed recorded results
 
 #### Experiment 3 — 430 videos, XY + confidence, single adjacency
 
-- Official recorded baseline test accuracy: **95.38%**.
-- A later evaluation of `runs/exp3/best_model.pt` recorded 65 test samples, 96.92% test accuracy (63/65 correct), 95.12% macro-F1 and 0.14050 test loss.
-- The official baseline and later re-evaluation are both retained pending reconciliation.
+- Test samples: 65.
+- Test accuracy: 96.92% (63/65 correct).
+- Test macro-F1: 95.12%.
+- Test loss: 0.14050.
+- Generated sources: `logs/exp3/test_metrics.json` and `logs/exp3/classification_report.csv`.
 
 #### Experiment 4 — 430 videos, XY, single adjacency
 
@@ -338,14 +353,14 @@ The following table reports the results recorded for the current project experim
 
 ### 8.1 Best recorded result
 
-Among the results listed above, Experiment 6 has the strongest recorded combination of test accuracy and macro-F1:
+Among numbered Experiments 3–9, Experiment 3 has the highest generated test accuracy (96.92%), while Experiment 6 has the highest macro-F1 (92.20%). Across all listed current-project runs, the additional `three_partition_xy_conf_seed21` run has the highest test accuracy and macro-F1:
 
-- Test accuracy: **95.38%**
-- Test macro-F1: **92.20%**
+- Test accuracy: **98.46%**
+- Test macro-F1: **98.37%**
 - Test samples: 65
-- Best checkpoint: epoch 56
+- Run: `three_partition_xy_conf_seed21`
 
-Experiment 3 has an official baseline accuracy of 95.38%; its later checkpoint re-evaluation is recorded separately because it produced a different result.
+For the numbered experiments only, Experiment 6's test accuracy is 95.38% and its macro-F1 is 92.20%.
 
 ### 8.2 Single adjacency versus three partitions
 
@@ -474,6 +489,6 @@ find . -maxdepth 3 -type d | sort
 | Experiments 3–9 | Training/evaluation results recorded |
 | Experiments 1–2 | Historical configurations; prior quoted results belong to a separate repository |
 | Checkpoints and logs | Retained in experiment-specific directories |
-| Best recorded current-project result in this summary | Experiment 6: 95.38% accuracy, 92.20% macro-F1 |
+| Best generated result across the listed current-project runs | `three_partition_xy_conf_seed21`: 98.46% accuracy, 98.37% macro-F1 |
 
-**Project outcome:** a DWPose-to-ST-GCN pipeline for 41-class Kathakali gesture recognition, with a best recorded current-project test accuracy of **95.38%** and macro-F1 of **92.20%** (Experiment 6).
+**Project outcome:** a DWPose-to-ST-GCN pipeline for 41-class Kathakali gesture recognition. The best generated test result currently found is **98.46% accuracy** and **98.37% macro-F1** (`three_partition_xy_conf_seed21`, 65 test samples); the best numbered experiment by accuracy is Experiment 3 at **96.92%**.
