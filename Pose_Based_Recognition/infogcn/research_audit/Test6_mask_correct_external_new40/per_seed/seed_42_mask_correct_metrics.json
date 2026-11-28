@@ -1,0 +1,23 @@
+{
+  "evaluated_videos": 40,
+  "correct_count": 24,
+  "accuracy": 0.6,
+  "macro_precision_all_41": 0.4695121951219512,
+  "macro_recall_all_41": 0.5853658536585366,
+  "macro_f1_all_41": 0.5056910569105691,
+  "macro_f1_represented": 0.5183333333333333,
+  "weighted_f1": 0.5183333333333333,
+  "eval_loss": 1.4858607530593873,
+  "represented_class_count": 40,
+  "zero_support_classes": [
+    "Urakkam"
+  ],
+  "seed": 42,
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/research_audit/Test5_mask_correction_comparison/mask_correct/seed_42/best_model.pt",
+  "checkpoint_sha256": "28293bbb03482d3b40f1c2808dd3887ed7c2f555ccc196a47893aae3f985b720",
+  "checkpoint_epoch": 79,
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "parameter_count": 324080,
+  "loss_definition": "mean per-batch CrossEntropyLoss, weighted by batch sample count; use_ib=False"
+}

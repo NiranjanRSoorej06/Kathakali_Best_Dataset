@@ -1,0 +1,8 @@
+source_bundle,train,val,test,total,spans_multiple_splits,interpretation
+Video_Collection_first_person,73,17,20,110,True,container only; not a verified recording/session group
+Videos_Cropped1,63,15,11,89,True,container only; not a verified recording/session group
+Videos_Cropped2,40,8,7,55,True,container only; not a verified recording/session group
+Videos_Cropped3,39,7,7,53,True,container only; not a verified recording/session group
+Videos_Cropped4,38,7,8,53,True,container only; not a verified recording/session group
+Videos_Cropped5,34,7,4,45,True,container only; not a verified recording/session group
+Videos_Cropped6,13,4,8,25,True,container only; not a verified recording/session group

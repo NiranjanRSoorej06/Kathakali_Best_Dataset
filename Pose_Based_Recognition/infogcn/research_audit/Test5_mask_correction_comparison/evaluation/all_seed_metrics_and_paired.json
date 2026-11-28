@@ -1,0 +1,202 @@
+{
+  "test_samples": 65,
+  "class_names": [
+    "Aakasham",
+    "Aana",
+    "Aayudham",
+    "Acchan",
+    "Albutham",
+    "Amma",
+    "Anugraham",
+    "Ariyikkuka",
+    "Baalan",
+    "Bhoomi",
+    "Bhrahmaavu",
+    "Chandran",
+    "Chundu",
+    "Gunam",
+    "Irikkuka",
+    "Kaadu",
+    "Kallan",
+    "Kannu",
+    "Kashtam",
+    "Kuyil",
+    "Manassu",
+    "Nadakkuka",
+    "Nee_Roudram",
+    "Nee_Shringaaram",
+    "Paadam",
+    "Pazham",
+    "Pushpam",
+    "Raajyam",
+    "Samudram",
+    "Satyam",
+    "Shivan",
+    "Simham",
+    "Sooryan",
+    "Svargam",
+    "Thaamara",
+    "Thalamudi",
+    "Thaliru",
+    "Urakkam",
+    "Veedu",
+    "Vishnu",
+    "Vriksham"
+  ],
+  "by_seed": {
+    "21": {
+      "baseline": {
+        "variant": "baseline",
+        "seed": 21,
+        "best_epoch": 71,
+        "test_samples": 65,
+        "test_loss": 0.008806807031998267,
+        "accuracy": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "parameters": 324080
+      },
+      "mask_correct": {
+        "variant": "mask_correct",
+        "seed": 21,
+        "best_epoch": 64,
+        "test_samples": 65,
+        "test_loss": 0.009850195021583484,
+        "accuracy": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "parameters": 324080
+      }
+    },
+    "42": {
+      "baseline": {
+        "variant": "baseline",
+        "seed": 42,
+        "best_epoch": 58,
+        "test_samples": 65,
+        "test_loss": 0.012701068130823282,
+        "accuracy": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "parameters": 324080
+      },
+      "mask_correct": {
+        "variant": "mask_correct",
+        "seed": 42,
+        "best_epoch": 79,
+        "test_samples": 65,
+        "test_loss": 0.00920162728199592,
+        "accuracy": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "parameters": 324080
+      }
+    },
+    "7": {
+      "baseline": {
+        "variant": "baseline",
+        "seed": 7,
+        "best_epoch": 43,
+        "test_samples": 65,
+        "test_loss": 0.03735710153212914,
+        "accuracy": 0.9846153846153847,
+        "macro_precision": 0.9634146341463414,
+        "macro_recall": 0.975609756097561,
+        "macro_f1": 0.9674796747967479,
+        "weighted_f1": 0.9794871794871796,
+        "parameters": 324080
+      },
+      "mask_correct": {
+        "variant": "mask_correct",
+        "seed": 7,
+        "best_epoch": 42,
+        "test_samples": 65,
+        "test_loss": 0.053215505526616025,
+        "accuracy": 0.9846153846153847,
+        "macro_precision": 0.9634146341463414,
+        "macro_recall": 0.975609756097561,
+        "macro_f1": 0.9674796747967479,
+        "weighted_f1": 0.9794871794871796,
+        "parameters": 324080
+      }
+    },
+    "13": {
+      "baseline": {
+        "variant": "baseline",
+        "seed": 13,
+        "best_epoch": 47,
+        "test_samples": 65,
+        "test_loss": 0.034869588567660405,
+        "accuracy": 0.9846153846153847,
+        "macro_precision": 0.9634146341463414,
+        "macro_recall": 0.975609756097561,
+        "macro_f1": 0.9674796747967479,
+        "weighted_f1": 0.9794871794871794,
+        "parameters": 324080
+      },
+      "mask_correct": {
+        "variant": "mask_correct",
+        "seed": 13,
+        "best_epoch": 47,
+        "test_samples": 65,
+        "test_loss": 0.03168336015481215,
+        "accuracy": 0.9846153846153847,
+        "macro_precision": 0.9634146341463414,
+        "macro_recall": 0.975609756097561,
+        "macro_f1": 0.9674796747967479,
+        "weighted_f1": 0.9794871794871794,
+        "parameters": 324080
+      }
+    }
+  },
+  "paired": {
+    "21": {
+      "seed": 21,
+      "baseline_only_correct": 0,
+      "mask_correct_only_correct": 0,
+      "both_correct": 65,
+      "both_wrong": 0,
+      "accuracy_delta_mask_minus_baseline": 0.0,
+      "macro_f1_delta_mask_minus_baseline": 0.0,
+      "exact_mcnemar_binomial_p": 1.0
+    },
+    "42": {
+      "seed": 42,
+      "baseline_only_correct": 0,
+      "mask_correct_only_correct": 0,
+      "both_correct": 65,
+      "both_wrong": 0,
+      "accuracy_delta_mask_minus_baseline": 0.0,
+      "macro_f1_delta_mask_minus_baseline": 0.0,
+      "exact_mcnemar_binomial_p": 1.0
+    },
+    "7": {
+      "seed": 7,
+      "baseline_only_correct": 0,
+      "mask_correct_only_correct": 0,
+      "both_correct": 64,
+      "both_wrong": 1,
+      "accuracy_delta_mask_minus_baseline": 0.0,
+      "macro_f1_delta_mask_minus_baseline": 0.0,
+      "exact_mcnemar_binomial_p": 1.0
+    },
+    "13": {
+      "seed": 13,
+      "baseline_only_correct": 0,
+      "mask_correct_only_correct": 0,
+      "both_correct": 64,
+      "both_wrong": 1,
+      "accuracy_delta_mask_minus_baseline": 0.0,
+      "macro_f1_delta_mask_minus_baseline": 0.0,
+      "exact_mcnemar_binomial_p": 1.0
+    }
+  }
+}

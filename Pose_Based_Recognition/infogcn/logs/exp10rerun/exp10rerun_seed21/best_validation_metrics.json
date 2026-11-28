@@ -1,0 +1,33 @@
+{
+  "experiment": "exp10rerun",
+  "run_name": "exp10rerun_seed21",
+  "best_epoch": 71,
+  "last_epoch": 100,
+  "stopped_early": false,
+  "selection_metric": "val_loss",
+  "best_validation_loss": 0.07694679841112632,
+  "best_validation_accuracy": 0.9538461538461539,
+  "best_validation_macro_f1": 0.9626016260162602,
+  "seed": 21,
+  "epochs_configured": 100,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler": "plateau",
+  "model_config": {
+    "num_classes": 41,
+    "in_channels": 3,
+    "num_joints": 50,
+    "base_channels": 48,
+    "dropout": 0.15,
+    "head_dropout": 0.3,
+    "use_ib": false,
+    "latent_dim": 128
+  },
+  "total_parameters": 324080,
+  "trainable_parameters": 324080,
+  "device": "cuda",
+  "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10rerun_seed21/best_model.pt",
+  "training_log": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/logs/exp10rerun/exp10rerun_seed21/training_log.csv"
+}

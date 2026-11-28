@@ -1,0 +1,8 @@
+{
+  "total_videos": 40,
+  "completed_this_run": 40,
+  "skipped": 0,
+  "failed": 0,
+  "errors": [],
+  "output": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/testing/new40/raw_pose"
+}

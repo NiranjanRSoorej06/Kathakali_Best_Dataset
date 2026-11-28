@@ -1,0 +1,42 @@
+{
+  "experiment": "exp10rerun",
+  "reference_run": "exp10rerun_seed21",
+  "shared_hyperparameters": {
+    "epochs": 100,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 20,
+    "num_workers": 0,
+    "base_channels": 48,
+    "dropout": 0.15,
+    "head_dropout": 0.3,
+    "label_smoothing": 0.0,
+    "selection_metric": "val_loss",
+    "scheduler": "plateau",
+    "use_ib": false,
+    "latent_dim": 128
+  },
+  "runs": [
+    {
+      "run_name": "exp10rerun_seed21",
+      "seed": 21,
+      "status": "completed_reference"
+    },
+    {
+      "run_name": "exp10_seed42",
+      "seed": 42,
+      "status": "pending"
+    },
+    {
+      "run_name": "exp10_seed7",
+      "seed": 7,
+      "status": "pending"
+    },
+    {
+      "run_name": "exp10_seed13",
+      "seed": 13,
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+seed,baseline_only_correct,mask_correct_only_correct,both_correct,both_wrong,accuracy_delta_mask_minus_baseline,macro_f1_delta_mask_minus_baseline,exact_mcnemar_binomial_p,prediction_disagreements
+21,0,0,65,0,0.0,0.0,1.0,0
+42,0,0,65,0,0.0,0.0,1.0,0
+7,0,0,64,1,0.0,0.0,1.0,0
+13,0,0,64,1,0.0,0.0,1.0,0

@@ -1,0 +1,47 @@
+                 precision    recall  f1-score   support
+
+       Aakasham       0.00      0.00      0.00         1
+           Aana       1.00      1.00      1.00         1
+       Aayudham       1.00      1.00      1.00         1
+         Acchan       0.00      0.00      0.00         1
+       Albutham       1.00      1.00      1.00         1
+           Amma       1.00      1.00      1.00         1
+      Anugraham       0.00      0.00      0.00         1
+     Ariyikkuka       1.00      1.00      1.00         1
+         Baalan       1.00      1.00      1.00         1
+         Bhoomi       0.00      0.00      0.00         1
+     Bhrahmaavu       1.00      1.00      1.00         1
+       Chandran       0.00      0.00      0.00         1
+         Chundu       0.00      0.00      0.00         1
+          Gunam       0.00      0.00      0.00         1
+       Irikkuka       1.00      1.00      1.00         1
+          Kaadu       1.00      1.00      1.00         1
+         Kallan       1.00      1.00      1.00         1
+          Kannu       0.50      1.00      0.67         1
+        Kashtam       0.00      0.00      0.00         1
+          Kuyil       0.00      0.00      0.00         1
+        Manassu       0.50      1.00      0.67         1
+      Nadakkuka       0.00      0.00      0.00         1
+    Nee_Roudram       1.00      1.00      1.00         1
+Nee_Shringaaram       1.00      1.00      1.00         1
+         Paadam       1.00      1.00      1.00         1
+         Pazham       1.00      1.00      1.00         1
+        Pushpam       0.20      1.00      0.33         1
+        Raajyam       1.00      1.00      1.00         1
+       Samudram       1.00      1.00      1.00         1
+         Satyam       0.00      0.00      0.00         1
+         Shivan       0.50      1.00      0.67         1
+         Simham       0.00      0.00      0.00         1
+        Sooryan       0.00      0.00      0.00         1
+        Svargam       1.00      1.00      1.00         1
+       Thaamara       0.50      1.00      0.67         1
+      Thalamudi       1.00      1.00      1.00         1
+        Thaliru       0.00      0.00      0.00         1
+        Urakkam       0.00      0.00      0.00         0
+          Veedu       0.00      0.00      0.00         1
+         Vishnu       0.00      0.00      0.00         1
+       Vriksham       0.00      0.00      0.00         1
+
+       accuracy                           0.57        40
+      macro avg       0.49      0.56      0.51        40
+   weighted avg       0.51      0.57      0.53        40

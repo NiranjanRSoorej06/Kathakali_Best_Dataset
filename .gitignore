@@ -100,3 +100,12 @@ Videos_Cropped/
 Pose_Based_Recognition/**/__pycache__/
 Pose_Based_Recognition/**/*.pyc
 Pose_Based_Recognition/**/.venv/
+
+# InfoGCN generated checkpoints
+Pose_Based_Recognition/infogcn/runs/
+Pose_Based_Recognition/infogcn/**/best_model.pt
+Pose_Based_Recognition/infogcn/**/*.pt
+
+# ST-GCN generated test features
+Pose_Based_Recognition/stgcn/testing/**/processed/**/*.npz
+Pose_Based_Recognition/stgcn/testing/**/raw_pose/**/*.npz

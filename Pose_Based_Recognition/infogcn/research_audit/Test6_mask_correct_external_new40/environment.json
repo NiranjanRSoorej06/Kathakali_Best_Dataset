@@ -1,0 +1,12 @@
+{
+  "source": "Stage 1 preflight runtime environment; Stage 2 evaluation ran on the same environment",
+  "python": "3.10.20",
+  "torch": "2.5.1+cu121",
+  "cuda_runtime": "12.1",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.7.2",
+  "cuda_available": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA H100 PCIe MIG 2g.20gb"
+}

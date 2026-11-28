@@ -1,0 +1,74 @@
+{
+  "status": "PASS \u2014 training may begin",
+  "config_sha256": "67251e39885818f6091348538d43e7fad3ac03a4e0cd632357ddd121245a59b1",
+  "metadata_sha256": "5e1a1de94e66f02503fce56c29acbdc59c4f0078d9653aefb00260d73107bd65",
+  "split_counts": {
+    "train": 300,
+    "test": 65,
+    "val": 65
+  },
+  "class_count": 41,
+  "feature_paths_present": 430,
+  "train_val_feature_check": {
+    "train": {
+      "samples": 300,
+      "min_valid_frames": 100,
+      "max_valid_frames": 100
+    },
+    "val": {
+      "samples": 65,
+      "min_valid_frames": 100,
+      "max_valid_frames": 100
+    }
+  },
+  "test_split_policy": "Metadata/path existence checked; test feature contents not opened during preflight.",
+  "baseline_runs": {
+    "21": {
+      "source_run": "exp10rerun_seed21",
+      "best_epoch": 71,
+      "last_epoch": 100,
+      "early_stopped": false,
+      "checkpoint_sha256": "c2d3e7b59783d35decef904c7e5bce753d35ef9fc5aa9071ae3005e5f7338666",
+      "history_sha256": "5942e48a3ff3f439b9e955484edb16af2d793a36d242a428f55848c64d9d3f83"
+    },
+    "42": {
+      "source_run": "exp10_seed42",
+      "best_epoch": 58,
+      "last_epoch": 88,
+      "early_stopped": true,
+      "checkpoint_sha256": "a255e3ee4ac65e47b16ea24a09b01fa72cfa7c6155037959a9384c5f61cbf0e1",
+      "history_sha256": "6b15e2c15ce7454617c01e80fcce058b66d9ebf73b58e5be36be6087d1d2bad9"
+    },
+    "7": {
+      "source_run": "exp10_seed7",
+      "best_epoch": 43,
+      "last_epoch": 73,
+      "early_stopped": true,
+      "checkpoint_sha256": "0422d5727a0fff63a6653fd93c033b2d68ab0c6b2a846d72b5d158a6ee165d94",
+      "history_sha256": "cbfb953d860a6ca3f25011a28b504fd29e6cd9c3434ccc055e273c2de69bba81"
+    },
+    "13": {
+      "source_run": "exp10_seed13",
+      "best_epoch": 47,
+      "last_epoch": 77,
+      "early_stopped": true,
+      "checkpoint_sha256": "d4881d4e33915d673330f8ba2a783eb8bebc6a68c9d9f14e350ca57b6b43d8ee",
+      "history_sha256": "9b30e5b91098b60ac4f6b58bd3432eb0edefdad70d1615ccd85e7acdfe9d1ff3"
+    }
+  },
+  "seeded_initialization": {
+    "paired_state_tensors": 207,
+    "mismatches": 0
+  },
+  "device": "cuda",
+  "cuda_device": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "isolated_output_paths": {
+    "baseline": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/research_audit/Test5_mask_correction_comparison/baseline",
+    "mask_correct": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/research_audit/Test5_mask_correction_comparison/mask_correct"
+  },
+  "protected_source_paths_unchanged_by_design": [
+    "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/experiments/exp10rerun",
+    "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun",
+    "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/logs/exp10rerun"
+  ]
+}

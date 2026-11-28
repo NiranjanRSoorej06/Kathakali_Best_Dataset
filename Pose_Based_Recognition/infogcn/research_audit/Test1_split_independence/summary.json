@@ -1,0 +1,65 @@
+{
+  "audit_label": "Test 1: Clip-Level Split Independence Audit",
+  "canonical_clips": 430,
+  "audited_source_files": 430,
+  "feature_files_present": 430,
+  "audit_errors": [],
+  "split_counts": {
+    "train": 300,
+    "test": 65,
+    "val": 65
+  },
+  "classes": 41,
+  "classes_present_in_all_splits": 41,
+  "per_split_per_class_support_counts": {
+    "train": {
+      "7": 28,
+      "8": 13
+    },
+    "val": {
+      "2": 24,
+      "1": 17
+    },
+    "test": {
+      "1": 17,
+      "2": 24
+    }
+  },
+  "dimension_group_counts": {
+    "1030x1080": 44,
+    "1900x1710": 84,
+    "1900x2060": 82,
+    "2300x2160": 220
+  },
+  "classes_multi_dimension": 21,
+  "classes_single_dimension": 20,
+  "same_class_pairs_tested": 2045,
+  "cross_split_same_class_pairs_tested": 1045,
+  "cross_split_pair_evidence_counts": {
+    "unknown": 940,
+    "possible": 105
+  },
+  "cross_split_possible_pairs": 105,
+  "clips_in_possible_cross_split_pairs": 136,
+  "manual_visual_pairs_reviewed": 5,
+  "manual_additional_possible_edges": 3,
+  "combined_possible_cross_split_pair_leads": 108,
+  "clips_in_combined_possible_cross_split_pair_leads": 138,
+  "cross_split_candidate_components": 37,
+  "clips_in_cross_split_candidate_components": 167,
+  "candidate_component_evidence_counts": {
+    "possible": 37
+  },
+  "source_directory_bundles": 7,
+  "bundles_with_multiple_splits": 7,
+  "clips_in_bundles_with_multiple_splits": 430,
+  "exact_duplicate_sha_groups": {},
+  "cross_split_possible_evidence_mechanism_counts_nonexclusive": {
+    "body_phash_monotonic_chain_ge4": 89,
+    "same_directory_near_duration_and_fps": 12,
+    "pose_rmse_lt_0.06_and_corr_gt_0.97": 4
+  },
+  "samples_per_clip": 9,
+  "important_scope": "Pairwise perceptual/pose screening was limited to same-class pairs. All 430 files were inventoried and hashed. Cross-class session linkage is represented only by source-container tags and remains unknown without source/session metadata.",
+  "threshold_note": "Possible and component counts are screening output, not verified overlap counts. pHash and pose similarity can reflect repeated choreography or common setup. No pair met the strict confirmed or high-confidence rule used by the script."
+}

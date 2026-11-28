@@ -1,0 +1,160 @@
+{
+  "experiment": "exp10rerun",
+  "evaluation_type": "external_new40_multiseed_summary",
+  "manifest_path": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/stgcn/testing/new40/processed/manifest.csv",
+  "completed_runs": 4,
+  "per_run": [
+    {
+      "run_name": "exp10rerun_seed21",
+      "seed": 21,
+      "checkpoint_epoch": 71,
+      "evaluated_videos": 40,
+      "skipped_or_invalid_count": 0,
+      "correct_count": 28,
+      "incorrect_count": 12,
+      "accuracy": 0.7,
+      "macro_f1_all_41": 0.6016260162601625,
+      "macro_f1_represented": 0.6166666666666666,
+      "weighted_f1": 0.6166666666666666,
+      "eval_loss": 1.368360447883606,
+      "macro_precision_all_41": 0.5609756097560976,
+      "macro_recall_all_41": 0.6829268292682927,
+      "macro_precision_represented": 0.575,
+      "macro_recall_represented": 0.7,
+      "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10rerun_seed21/best_model.pt",
+      "metrics_path": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/testing/test2/results/external_eval_metrics.json"
+    },
+    {
+      "run_name": "exp10_seed42",
+      "seed": 42,
+      "checkpoint_epoch": 58,
+      "evaluated_videos": 40,
+      "skipped_or_invalid_count": 0,
+      "correct_count": 24,
+      "incorrect_count": 16,
+      "accuracy": 0.6,
+      "macro_f1_all_41": 0.5097560975609756,
+      "macro_f1_represented": 0.5225,
+      "weighted_f1": 0.5225,
+      "eval_loss": 1.5684458017349243,
+      "macro_precision_all_41": 0.4817073170731707,
+      "macro_recall_all_41": 0.5853658536585366,
+      "macro_precision_represented": 0.49375,
+      "macro_recall_represented": 0.6,
+      "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10_seed42/best_model.pt",
+      "metrics_path": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/testing/test2_multiseed/results/exp10_seed42/external_eval_metrics.json"
+    },
+    {
+      "run_name": "exp10_seed7",
+      "seed": 7,
+      "checkpoint_epoch": 43,
+      "evaluated_videos": 40,
+      "skipped_or_invalid_count": 0,
+      "correct_count": 26,
+      "incorrect_count": 14,
+      "accuracy": 0.65,
+      "macro_f1_all_41": 0.5691056910569106,
+      "macro_f1_represented": 0.5833333333333333,
+      "weighted_f1": 0.5833333333333333,
+      "eval_loss": 1.1559017658233643,
+      "macro_precision_all_41": 0.5406504065040649,
+      "macro_recall_all_41": 0.6341463414634146,
+      "macro_precision_represented": 0.5541666666666666,
+      "macro_recall_represented": 0.65,
+      "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10_seed7/best_model.pt",
+      "metrics_path": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/testing/test2_multiseed/results/exp10_seed7/external_eval_metrics.json"
+    },
+    {
+      "run_name": "exp10_seed13",
+      "seed": 13,
+      "checkpoint_epoch": 47,
+      "evaluated_videos": 40,
+      "skipped_or_invalid_count": 0,
+      "correct_count": 29,
+      "incorrect_count": 11,
+      "accuracy": 0.725,
+      "macro_f1_all_41": 0.6341463414634146,
+      "macro_f1_represented": 0.65,
+      "weighted_f1": 0.65,
+      "eval_loss": 1.1430979728698731,
+      "macro_precision_all_41": 0.5975609756097561,
+      "macro_recall_all_41": 0.7073170731707317,
+      "macro_precision_represented": 0.6125,
+      "macro_recall_represented": 0.725,
+      "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10_seed13/best_model.pt",
+      "metrics_path": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/testing/test2_multiseed/results/exp10_seed13/external_eval_metrics.json"
+    }
+  ],
+  "aggregate_metrics": {
+    "accuracy": {
+      "mean": 0.66875,
+      "std_sample": 0.05543389456520862,
+      "std_pop": 0.048007160924178796,
+      "min": 0.6,
+      "max": 0.725
+    },
+    "correct_count": {
+      "mean": 26.75,
+      "std_sample": 2.217355782608345,
+      "std_pop": 1.920286436967152,
+      "min": 24.0,
+      "max": 29.0
+    },
+    "macro_f1_all_41": {
+      "mean": 0.5786585365853658,
+      "std_sample": 0.053057216204134935,
+      "std_pop": 0.04594889708686422,
+      "min": 0.5097560975609756,
+      "max": 0.6341463414634146
+    },
+    "macro_f1_represented": {
+      "mean": 0.593125,
+      "std_sample": 0.054383646609238334,
+      "std_pop": 0.04709761951403585,
+      "min": 0.5225,
+      "max": 0.65
+    },
+    "weighted_f1": {
+      "mean": 0.593125,
+      "std_sample": 0.054383646609238334,
+      "std_pop": 0.04709761951403585,
+      "min": 0.5225,
+      "max": 0.65
+    },
+    "eval_loss": {
+      "mean": 1.308951497077942,
+      "std_sample": 0.20149303487926948,
+      "std_pop": 0.17449808689107132,
+      "min": 1.1430979728698731,
+      "max": 1.5684458017349243
+    },
+    "macro_precision_all_41": {
+      "mean": 0.5452235772357723,
+      "std_sample": 0.048451209110000885,
+      "std_pop": 0.04195997793333279,
+      "min": 0.4817073170731707,
+      "max": 0.5975609756097561
+    },
+    "macro_recall_all_41": {
+      "mean": 0.6524390243902438,
+      "std_sample": 0.05408184835630111,
+      "std_pop": 0.04683625456017445,
+      "min": 0.5853658536585366,
+      "max": 0.7073170731707317
+    },
+    "macro_precision_represented": {
+      "mean": 0.5588541666666667,
+      "std_sample": 0.04966248933775091,
+      "std_pop": 0.04300897738166611,
+      "min": 0.49375,
+      "max": 0.6125
+    },
+    "macro_recall_represented": {
+      "mean": 0.66875,
+      "std_sample": 0.05543389456520862,
+      "std_pop": 0.048007160924178796,
+      "min": 0.6,
+      "max": 0.725
+    }
+  }
+}

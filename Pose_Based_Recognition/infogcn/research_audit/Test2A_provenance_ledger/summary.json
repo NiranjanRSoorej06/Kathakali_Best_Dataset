@@ -1,0 +1,40 @@
+{
+  "clips": 430,
+  "classes": 41,
+  "clip_manifest_sources_found": 430,
+  "feature_files_found": 430,
+  "split_counts": {
+    "train": 300,
+    "test": 65,
+    "val": 65
+  },
+  "all_classes_in_all_splits": 41,
+  "clip_support_per_class_by_split": {
+    "train": {
+      "7": 28,
+      "8": 13
+    },
+    "val": {
+      "2": 24,
+      "1": 17
+    },
+    "test": {
+      "1": 17,
+      "2": 24
+    }
+  },
+  "confirmed_relationships": 0,
+  "strong_candidate_relationships": 1,
+  "weak_candidate_relationships": 107,
+  "candidate_relationships_total": 108,
+  "clips_with_candidate_links": 138,
+  "clips_with_unknown_session_provenance": 430,
+  "verified_session_groups": 0,
+  "test1_transitive_candidate_components_spanning_splits": 37,
+  "test1_component_members_are_not_session_assignments": true,
+  "broad_source_containers_crossing_splits": 7,
+  "clips_in_broad_source_containers_crossing_splits": 430,
+  "grouped_evaluation_ready": false,
+  "reason": "Verified recording/session/source-video IDs and clip intervals are absent; group counts/support per class cannot be established.",
+  "new40_per_video_predictions_inspected": false
+}

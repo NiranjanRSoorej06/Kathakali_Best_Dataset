@@ -1,0 +1,33 @@
+{
+  "experiment": "Test5_mask_correction_comparison",
+  "dataset": "canonical Kathakali 430-video processed pose features",
+  "split_counts": {"train": 300, "val": 65, "test": 65},
+  "class_count": 41,
+  "seeds": [21, 42, 7, 13],
+  "variants": ["baseline_exp10rerun", "mask_correct_test4"],
+  "baseline_artifact_policy": "Reuse exact completed EXP10RERUN runs for the same seeds and matching configuration; copy artifacts into this isolated workspace without modifying source runs.",
+  "mask_correct_runs": "Train fresh in this isolated workspace after preflight passes.",
+  "training": {
+    "epochs": 100,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 20,
+    "num_workers": 0,
+    "base_channels": 48,
+    "dropout": 0.15,
+    "head_dropout": 0.3,
+    "label_smoothing": 0.0,
+    "selection_metric": "val_loss",
+    "scheduler": "plateau",
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 6,
+    "gradient_clip_norm": 5.0,
+    "optimizer": "AdamW",
+    "use_ib": false,
+    "augmentation": "none"
+  },
+  "initialization_policy": "Reset Python, NumPy, and Torch seeds to the run seed before constructing each model; verify mapped baseline/mask-correct trainable tensors are identical at initialization.",
+  "test_evaluation_policy": "Do not evaluate canonical test split until all four mask-correct runs complete and all best checkpoints/configurations are fixed. Validation loss alone selects checkpoints.",
+  "new40_policy": "Sealed; no New40 access."
+}

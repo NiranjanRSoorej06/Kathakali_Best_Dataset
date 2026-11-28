@@ -1,0 +1,104 @@
+{
+  "checkpoint_read_only": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10rerun_seed21/best_model.pt",
+  "checkpoint_run_name": "exp10rerun_seed21",
+  "checkpoint_epoch": 71,
+  "test_type": "synthetic forward-only; no optimizer or parameter update",
+  "mask_valid_lengths": [
+    83,
+    97
+  ],
+  "eval_finite_padding_value_change": {
+    "zero_vs_plus25_max_logit_abs_delta": 0.0,
+    "zero_vs_minus25_max_logit_abs_delta": 0.0,
+    "zero_vs_plus25_max_pooled_representation_abs_delta": 0.0,
+    "zero_vs_minus25_max_pooled_representation_abs_delta": 0.0,
+    "interpretation": "Finite raw padded values are removed by eval-mode per-channel input normalization followed by masking; invariant in this controlled check."
+  },
+  "eval_nan_padding": {
+    "masked_nan_produced_nonfinite_logits": true,
+    "interpretation": "Multiplication by zero does not clear NaN/Inf; input finiteness is required."
+  },
+  "train_mode_batchnorm_padding_value_change": {
+    "zero_vs_plus25_max_valid_data_bn_abs_delta": 4.719249725341797,
+    "zero_vs_plus25_max_logit_abs_delta": 1.8765296936035156,
+    "predicted_class_changed_for_any_sample": true,
+    "interpretation": "Changing only invalid finite values changes current BatchNorm1d statistics and valid normalized activations; forward-only test, no optimizer step."
+  },
+  "eval_internal_invalid_branch_activation": {
+    "invalid_branch_activation_max_abs": 1.4643317461013794,
+    "nonzero_invalid_branch_activation_count": 89050,
+    "zero_invalid_branch_outputs_before_temporal_conv_max_logit_delta": 0.026336669921875,
+    "zero_invalid_branch_outputs_before_temporal_conv_max_pooled_representation_delta": 0.032440185546875,
+    "branch_observations": [
+      {
+        "block": 1,
+        "branch": "branch_d1",
+        "invalid_activation_max_abs": 0.6733605265617371,
+        "invalid_activation_nonzero_count": 5950
+      },
+      {
+        "block": 1,
+        "branch": "branch_d2",
+        "invalid_activation_max_abs": 0.7851037383079529,
+        "invalid_activation_nonzero_count": 3400
+      },
+      {
+        "block": 2,
+        "branch": "branch_d1",
+        "invalid_activation_max_abs": 0.7351555228233337,
+        "invalid_activation_nonzero_count": 6800
+      },
+      {
+        "block": 2,
+        "branch": "branch_d2",
+        "invalid_activation_max_abs": 0.7775487303733826,
+        "invalid_activation_nonzero_count": 6800
+      },
+      {
+        "block": 3,
+        "branch": "branch_d1",
+        "invalid_activation_max_abs": 1.4643317461013794,
+        "invalid_activation_nonzero_count": 11050
+      },
+      {
+        "block": 3,
+        "branch": "branch_d2",
+        "invalid_activation_max_abs": 1.2446398735046387,
+        "invalid_activation_nonzero_count": 11050
+      },
+      {
+        "block": 4,
+        "branch": "branch_d1",
+        "invalid_activation_max_abs": 1.4457732439041138,
+        "invalid_activation_nonzero_count": 5600
+      },
+      {
+        "block": 4,
+        "branch": "branch_d2",
+        "invalid_activation_max_abs": 0.7786651253700256,
+        "invalid_activation_nonzero_count": 6000
+      },
+      {
+        "block": 5,
+        "branch": "branch_d1",
+        "invalid_activation_max_abs": 1.0588005781173706,
+        "invalid_activation_nonzero_count": 16800
+      },
+      {
+        "block": 5,
+        "branch": "branch_d2",
+        "invalid_activation_max_abs": 1.299293041229248,
+        "invalid_activation_nonzero_count": 15600
+      }
+    ],
+    "interpretation": "Counterfactual activation intervention tests whether learned BN+ReLU outputs at masked positions contribute through temporal convolutions to valid pooled outputs."
+  },
+  "canonical_metadata": {
+    "clips": 430,
+    "all_100_valid_clips": 430,
+    "clips_with_fewer_than_100_valid_frames": 0,
+    "minimum_valid_frames": 100,
+    "maximum_valid_frames": 100
+  },
+  "scope_limits": "Synthetic sequence only; not a dataset evaluation. Checkpoint read but not modified. No test split or New40 files read."
+}

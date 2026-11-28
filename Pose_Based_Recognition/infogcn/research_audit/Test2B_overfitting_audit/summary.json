@@ -1,0 +1,81 @@
+{
+  "experiment": "EXP10RERUN",
+  "seeds": [
+    21,
+    42,
+    7,
+    13
+  ],
+  "runs": {
+    "exp10rerun_seed21": {
+      "logged_rows": 100,
+      "epochs_first_last": [
+        1,
+        100
+      ],
+      "best_val_loss_logged_epoch": 71,
+      "saved_best_epoch": 71,
+      "saved_best_loss_matches_log": true
+    },
+    "exp10_seed42": {
+      "logged_rows": 88,
+      "epochs_first_last": [
+        1,
+        88
+      ],
+      "best_val_loss_logged_epoch": 58,
+      "saved_best_epoch": 58,
+      "saved_best_loss_matches_log": true
+    },
+    "exp10_seed7": {
+      "logged_rows": 73,
+      "epochs_first_last": [
+        1,
+        73
+      ],
+      "best_val_loss_logged_epoch": 43,
+      "saved_best_epoch": 43,
+      "saved_best_loss_matches_log": true
+    },
+    "exp10_seed13": {
+      "logged_rows": 77,
+      "epochs_first_last": [
+        1,
+        77
+      ],
+      "best_val_loss_logged_epoch": 47,
+      "saved_best_epoch": 47,
+      "saved_best_loss_matches_log": true
+    }
+  },
+  "rows_per_run": {
+    "21": 100,
+    "42": 88,
+    "7": 73,
+    "13": 77
+  },
+  "selection_metric": "val_loss",
+  "all_saved_best_epochs_match_logged_val_loss_argmin": true,
+  "test_metrics_used": false,
+  "four_seed_train_val_means": {
+    "best_val_loss": 0.07276205580609918,
+    "peak_val_accuracy": 0.9846153846153848,
+    "peak_val_accuracy_epoch": 34.25,
+    "final_train_loss": 0.0503568429499864,
+    "final_val_loss": 0.11422842318335402,
+    "final_train_accuracy": 0.9908333333333332,
+    "final_val_accuracy": 0.9653846153846155,
+    "final_val_loss_minus_best": 0.041466367377254856
+  },
+  "four_seed_train_val_sample_stds": {
+    "best_val_loss": 0.02104188958029456,
+    "peak_val_accuracy": 0.0,
+    "peak_val_accuracy_epoch": 13.573871960498227,
+    "final_train_loss": 0.008447490285516323,
+    "final_val_loss": 0.0499072271669446,
+    "final_train_accuracy": 0.005692750425533209,
+    "final_val_accuracy": 0.0076923076923076095,
+    "final_val_loss_minus_best": 0.0356359202928999
+  },
+  "method_note": "Metrics were computed only from training_log.csv and best_validation_metrics.json for four seeds. No test metrics, test predictions, per-video results, checkpoints, or New40 files were read by this analysis script."
+}

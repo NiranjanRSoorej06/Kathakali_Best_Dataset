@@ -1,0 +1,17 @@
+{
+  "experiment": "exp10rerun",
+  "run_name": "exp10rerun_seed21",
+  "checkpoint_epoch": 71,
+  "test_samples": 65,
+  "test_loss": 0.008805240117586577,
+  "test_accuracy": 1.0,
+  "test_macro_precision": 1.0,
+  "test_macro_recall": 1.0,
+  "test_macro_f1": 1.0,
+  "test_weighted_f1": 1.0,
+  "total_parameters": 324080,
+  "trainable_parameters": 324080,
+  "device": "cuda",
+  "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10rerun_seed21/best_model.pt"
+}

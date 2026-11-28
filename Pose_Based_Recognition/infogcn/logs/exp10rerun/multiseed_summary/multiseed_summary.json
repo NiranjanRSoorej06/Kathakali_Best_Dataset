@@ -1,0 +1,165 @@
+{
+  "experiment": "exp10rerun",
+  "config_path": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/experiments/exp10rerun/multiseed_config.json",
+  "shared_hyperparameters": {
+    "epochs": 100,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 20,
+    "num_workers": 0,
+    "base_channels": 48,
+    "dropout": 0.15,
+    "head_dropout": 0.3,
+    "label_smoothing": 0.0,
+    "selection_metric": "val_loss",
+    "scheduler": "plateau",
+    "use_ib": false,
+    "latent_dim": 128
+  },
+  "completed_runs": 4,
+  "expected_runs": 4,
+  "missing_runs": [],
+  "per_run": [
+    {
+      "run_name": "exp10rerun_seed21",
+      "seed": 21,
+      "best_epoch": 71,
+      "best_validation_loss": 0.07694679841112632,
+      "best_validation_accuracy": 0.9538461538461539,
+      "best_validation_macro_f1": 0.9626016260162602,
+      "test_samples": 65,
+      "test_loss": 0.008805240117586577,
+      "test_accuracy": 1.0,
+      "test_macro_precision": 1.0,
+      "test_macro_recall": 1.0,
+      "test_macro_f1": 1.0,
+      "test_weighted_f1": 1.0,
+      "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+      "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10rerun_seed21/best_model.pt"
+    },
+    {
+      "run_name": "exp10_seed42",
+      "seed": 42,
+      "best_epoch": 58,
+      "best_validation_loss": 0.05806654703158599,
+      "best_validation_accuracy": 0.9692307692307692,
+      "best_validation_macro_f1": 0.9577235772357723,
+      "test_samples": 65,
+      "test_loss": 0.012702624843670771,
+      "test_accuracy": 1.0,
+      "test_macro_precision": 1.0,
+      "test_macro_recall": 1.0,
+      "test_macro_f1": 1.0,
+      "test_weighted_f1": 1.0,
+      "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+      "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10_seed42/best_model.pt"
+    },
+    {
+      "run_name": "exp10_seed7",
+      "seed": 7,
+      "best_epoch": 43,
+      "best_validation_loss": 0.10081628973667438,
+      "best_validation_accuracy": 0.9538461538461539,
+      "best_validation_macro_f1": 0.9414634146341462,
+      "test_samples": 65,
+      "test_loss": 0.037352074568088235,
+      "test_accuracy": 0.9846153846153847,
+      "test_macro_precision": 0.9634146341463414,
+      "test_macro_recall": 0.975609756097561,
+      "test_macro_f1": 0.9674796747967479,
+      "test_weighted_f1": 0.9794871794871796,
+      "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+      "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10_seed7/best_model.pt"
+    },
+    {
+      "run_name": "exp10_seed13",
+      "seed": 13,
+      "best_epoch": 47,
+      "best_validation_loss": 0.0552185880450102,
+      "best_validation_accuracy": 0.9846153846153847,
+      "best_validation_macro_f1": 0.9707317073170731,
+      "test_samples": 65,
+      "test_loss": 0.03487114287339724,
+      "test_accuracy": 0.9846153846153847,
+      "test_macro_precision": 0.9634146341463414,
+      "test_macro_recall": 0.975609756097561,
+      "test_macro_f1": 0.9674796747967479,
+      "test_weighted_f1": 0.9794871794871794,
+      "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+      "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/runs/exp10rerun/exp10_seed13/best_model.pt"
+    }
+  ],
+  "aggregate_metrics": {
+    "best_epoch": {
+      "mean": 54.75,
+      "std_sample": 12.553220038433698,
+      "std_pop": 10.871407452579449,
+      "min": 43.0,
+      "max": 71.0
+    },
+    "best_validation_loss": {
+      "mean": 0.07276205580609924,
+      "std_sample": 0.021041889580294577,
+      "std_pop": 0.018222810920162185,
+      "min": 0.0552185880450102,
+      "max": 0.10081628973667438
+    },
+    "best_validation_accuracy": {
+      "mean": 0.9653846153846154,
+      "std_sample": 0.014729647811635967,
+      "std_pop": 0.012756249193674612,
+      "min": 0.9538461538461539,
+      "max": 0.9846153846153847
+    },
+    "best_validation_macro_f1": {
+      "mean": 0.958130081300813,
+      "std_sample": 0.012338810230712493,
+      "std_pop": 0.010685723112272349,
+      "min": 0.9414634146341462,
+      "max": 0.9707317073170731
+    },
+    "test_loss": {
+      "mean": 0.023432770600685705,
+      "std_sample": 0.014761256260753055,
+      "std_pop": 0.012783622913584237,
+      "min": 0.008805240117586577,
+      "max": 0.037352074568088235
+    },
+    "test_accuracy": {
+      "mean": 0.9923076923076923,
+      "std_sample": 0.00888231183368652,
+      "std_pop": 0.007692307692307665,
+      "min": 0.9846153846153847,
+      "max": 1.0
+    },
+    "test_macro_precision": {
+      "mean": 0.9817073170731707,
+      "std_sample": 0.021122570824010718,
+      "std_pop": 0.018292682926829285,
+      "min": 0.9634146341463414,
+      "max": 1.0
+    },
+    "test_macro_recall": {
+      "mean": 0.9878048780487805,
+      "std_sample": 0.01408171388267381,
+      "std_pop": 0.012195121951219523,
+      "min": 0.975609756097561,
+      "max": 1.0
+    },
+    "test_macro_f1": {
+      "mean": 0.9837398373983739,
+      "std_sample": 0.01877561851023177,
+      "std_pop": 0.01626016260162605,
+      "min": 0.9674796747967479,
+      "max": 1.0
+    },
+    "test_weighted_f1": {
+      "mean": 0.9897435897435898,
+      "std_sample": 0.01184308244491539,
+      "std_pop": 0.010256410256410248,
+      "min": 0.9794871794871794,
+      "max": 1.0
+    }
+  }
+}

@@ -1,0 +1,5 @@
+seed,test_loss_delta_mask_minus_baseline,accuracy_delta_mask_minus_baseline,macro_f1_delta_mask_minus_baseline,weighted_f1_delta_mask_minus_baseline,best_epoch_delta_mask_minus_baseline
+21,0.0010433879895852174,0.0,0.0,0.0,-7.0
+42,-0.003499440848827362,0.0,0.0,0.0,21.0
+7,0.015858403994486882,0.0,0.0,0.0,-1.0
+13,-0.003186228412848255,0.0,0.0,0.0,0.0

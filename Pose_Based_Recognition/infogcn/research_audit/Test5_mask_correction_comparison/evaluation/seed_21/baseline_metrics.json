@@ -1,0 +1,13 @@
+{
+  "variant": "baseline",
+  "seed": 21,
+  "best_epoch": 71,
+  "test_samples": 65,
+  "test_loss": 0.008806807031998267,
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "parameters": 324080
+}

@@ -1,0 +1,18 @@
+{
+  "experiment": "Test6_mask_correct_external_new40",
+  "protocol": "Frozen paired New40 external evaluation",
+  "seeds": [21, 42, 7, 13],
+  "videos_per_seed": 40,
+  "expected_seed_video_pairs": 160,
+  "mask_correct_checkpoint_pattern": "../Test5_mask_correction_comparison/mask_correct/seed_{seed}/best_model.pt",
+  "baseline": "Existing EXP10RERUN New40 evaluation for the corresponding seed; seed 21 from testing/test2/results, seeds 42, 7, 13 from testing/test2_multiseed/results/exp10_seed{seed}",
+  "new40_manifest": "../../../stgcn/testing/new40/processed/manifest.csv",
+  "feature_loader": "testing/test2/scripts/evaluate_exp10rerun_test2.py::validate_and_load_samples",
+  "class_mapping": "stgcn/datasets/processed/metadata_split.csv, ordered canonical 41 classes",
+  "input_contract": {"features": [100, 50, 3], "frame_mask": [100], "joint_indices": "[0..7] + [92..133]"},
+  "loss": "Cross entropy, label_smoothing=0, use_ib=false; comparable to existing baseline eval_loss",
+  "selection_or_tuning_on_new40": false,
+  "retraining": false,
+  "individual_video_prediction_artifacts": false,
+  "aggregate_confusion_matrix_population": "pooled counts over 4 seeds x 40 videos for each variant"
+}

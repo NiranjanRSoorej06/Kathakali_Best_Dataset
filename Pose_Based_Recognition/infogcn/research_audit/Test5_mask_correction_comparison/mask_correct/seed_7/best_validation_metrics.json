@@ -1,0 +1,32 @@
+{
+  "variant": "mask_correct_test4",
+  "seed": 7,
+  "best_epoch": 42,
+  "last_epoch": 62,
+  "stopped_early": true,
+  "selection_metric": "val_loss",
+  "best_validation_loss": 0.10800566638891514,
+  "best_validation_accuracy": 0.9692307692307692,
+  "best_validation_macro_f1": 0.9707317073170731,
+  "epochs_configured": 100,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler": "plateau",
+  "model_config": {
+    "num_classes": 41,
+    "in_channels": 3,
+    "num_joints": 50,
+    "base_channels": 48,
+    "dropout": 0.15,
+    "head_dropout": 0.3,
+    "use_ib": false,
+    "latent_dim": 128
+  },
+  "total_parameters": 324080,
+  "trainable_parameters": 324080,
+  "device": "cuda",
+  "gpu_name": "NVIDIA H100 PCIe MIG 2g.20gb",
+  "checkpoint": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/research_audit/Test5_mask_correction_comparison/mask_correct/seed_7/best_model.pt",
+  "training_log": "/home/niranjanr/Kathakali_Best_Dataset/Pose_Based_Recognition/infogcn/research_audit/Test5_mask_correction_comparison/mask_correct/seed_7/training_log.csv"
+}
